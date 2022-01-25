@@ -1,0 +1,386 @@
+[2022-01-24 04:16:01,282] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [queued]>
+[2022-01-24 04:16:01,290] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [queued]>
+[2022-01-24 04:16:01,290] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-24 04:16:01,290] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-24 04:16:01,290] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-24 04:16:01,300] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): load_invoice_staging> on 2022-01-02 00:00:00+00:00
+[2022-01-24 04:16:01,304] {standard_task_runner.py:52} INFO - Started process 7136 to run task
+[2022-01-24 04:16:01,307] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'datawarehouse_etl', 'load_invoice_staging', 'scheduled__2022-01-02T00:00:00+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/datawarehouse_***.py', '--cfg-path', '/tmp/tmpehz6nhav', '--error-file', '/tmp/tmp63z4xu2c']
+[2022-01-24 04:16:01,307] {standard_task_runner.py:77} INFO - Job 74: Subtask load_invoice_staging
+[2022-01-24 04:16:01,347] {logging_mixin.py:109} INFO - Running <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [running]> on host cd9bb47288d1
+[2022-01-24 04:16:01,395] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=datawarehouse_etl
+AIRFLOW_CTX_TASK_ID=load_invoice_staging
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-02T00:00:00+00:00
+[2022-01-24 04:16:01,397] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,398] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,398] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,398] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,398] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,398] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,398] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,398] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,399] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,399] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,399] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,399] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:16:01,399] {logging_mixin.py:109} INFO - {'conf': <***.configuration.AirflowConfigParser object at 0x7f1e4dfc6a10>, 'dag': <DAG: datawarehouse_etl>, 'dag_run': <DagRun datawarehouse_etl @ 2022-01-02 00:00:00+00:00: scheduled__2022-01-02T00:00:00+00:00, externally triggered: False>, 'data_interval_end': DateTime(2022, 1, 3, 0, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_start': DateTime(2022, 1, 2, 0, 0, 0, tzinfo=Timezone('UTC')), 'ds': '2022-01-02', 'ds_nodash': '20220102', 'execution_date': DateTime(2022, 1, 2, 0, 0, 0, tzinfo=Timezone('UTC')), 'inlets': [], 'logical_date': DateTime(2022, 1, 2, 0, 0, 0, tzinfo=Timezone('UTC')), 'macros': <module '***.macros' from '/home/***/.local/lib/python3.7/site-packages/***/macros/__init__.py'>, 'next_ds': '2022-01-03', 'next_ds_nodash': '20220103', 'next_execution_date': DateTime(2022, 1, 3, 0, 0, 0, tzinfo=Timezone('UTC')), 'outlets': [], 'params': {}, 'prev_data_interval_start_success': None, 'prev_data_interval_end_success': None, 'prev_ds': '2022-01-01', 'prev_ds_nodash': '20220101', 'prev_execution_date': datetime.datetime(2022, 1, 1, 0, 0, tzinfo=Timezone('UTC')), 'prev_execution_date_success': None, 'prev_start_date_success': None, 'run_id': 'scheduled__2022-01-02T00:00:00+00:00', 'task': <Task(PythonOperator): load_invoice_staging>, 'task_instance': <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [running]>, 'task_instance_key_str': 'datawarehouse_etl__load_invoice_staging__20220102', 'test_mode': False, 'ti': <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [running]>, 'tomorrow_ds': '2022-01-03', 'tomorrow_ds_nodash': '20220103', 'ts': '2022-01-02T00:00:00+00:00', 'ts_nodash': '20220102T000000', 'ts_nodash_with_tz': '20220102T000000+0000', 'var': {'json': None, 'value': None}, 'conn': None, 'yesterday_ds': '2022-01-01', 'yesterday_ds_nodash': '20220101', 'key': 'value', 'ts_var': '2022-01-02T00:00:00+00:00', 'tsnodash_var': '20220102T000000', 'templates_dict': None}
+[2022-01-24 04:16:01,405] {logging_mixin.py:109} INFO - ts:  2022-01-02 00:00:00+00:00
+[2022-01-24 04:16:01,406] {logging_mixin.py:109} INFO - <class 'pandas._libs.tslibs.timestamps.Timestamp'>
+[2022-01-24 04:16:01,406] {logging_mixin.py:109} INFO - Object created.
+[2022-01-24 04:16:01,406] {logging_mixin.py:109} INFO - 2022 1 2
+[2022-01-24 04:16:01,406] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-18.json
+[2022-01-24 04:16:01,407] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-38.json
+[2022-01-24 04:16:01,407] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-57.json
+[2022-01-24 04:16:01,407] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-34.json
+[2022-01-24 04:16:01,407] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-51.json
+[2022-01-24 04:16:01,408] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-0.json
+[2022-01-24 04:16:01,408] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-41.json
+[2022-01-24 04:16:01,408] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-30.json
+[2022-01-24 04:16:01,409] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-12.json
+[2022-01-24 04:16:01,409] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-55.json
+[2022-01-24 04:16:01,410] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-26.json
+[2022-01-24 04:16:01,410] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-44.json
+[2022-01-24 04:16:01,410] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-45.json
+[2022-01-24 04:16:01,410] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-63.json
+[2022-01-24 04:16:01,411] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-3.json
+[2022-01-24 04:16:01,411] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-7.json
+[2022-01-24 04:16:01,411] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-1.json
+[2022-01-24 04:16:01,412] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-39.json
+[2022-01-24 04:16:01,412] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-11.json
+[2022-01-24 04:16:01,412] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-36.json
+[2022-01-24 04:16:01,412] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-53.json
+[2022-01-24 04:16:01,413] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-66.json
+[2022-01-24 04:16:01,413] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-20.json
+[2022-01-24 04:16:01,413] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-52.json
+[2022-01-24 04:16:01,413] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-68.json
+[2022-01-24 04:16:01,413] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-9.json
+[2022-01-24 04:16:01,414] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-31.json
+[2022-01-24 04:16:01,414] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-17.json
+[2022-01-24 04:16:01,414] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-10.json
+[2022-01-24 04:16:01,414] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-14.json
+[2022-01-24 04:16:01,414] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-70.json
+[2022-01-24 04:16:01,415] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-37.json
+[2022-01-24 04:16:01,415] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-25.json
+[2022-01-24 04:16:01,415] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-59.json
+[2022-01-24 04:16:01,415] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-62.json
+[2022-01-24 04:16:01,416] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-71.json
+[2022-01-24 04:16:01,416] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-35.json
+[2022-01-24 04:16:01,416] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-16.json
+[2022-01-24 04:16:01,416] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-2.json
+[2022-01-24 04:16:01,417] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-23.json
+[2022-01-24 04:16:01,417] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-54.json
+[2022-01-24 04:16:01,417] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-69.json
+[2022-01-24 04:16:01,418] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-49.json
+[2022-01-24 04:16:01,418] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-19.json
+[2022-01-24 04:16:01,418] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-32.json
+[2022-01-24 04:16:01,419] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-4.json
+[2022-01-24 04:16:01,419] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-61.json
+[2022-01-24 04:16:01,420] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-64.json
+[2022-01-24 04:16:01,420] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-13.json
+[2022-01-24 04:16:01,420] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-43.json
+[2022-01-24 04:16:01,421] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-65.json
+[2022-01-24 04:16:01,421] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-50.json
+[2022-01-24 04:16:01,421] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-24.json
+[2022-01-24 04:16:01,421] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-8.json
+[2022-01-24 04:16:01,422] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-29.json
+[2022-01-24 04:16:01,422] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-48.json
+[2022-01-24 04:16:01,423] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-47.json
+[2022-01-24 04:16:01,423] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-22.json
+[2022-01-24 04:16:01,423] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-58.json
+[2022-01-24 04:16:01,423] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-5.json
+[2022-01-24 04:16:01,424] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-6.json
+[2022-01-24 04:16:01,424] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-21.json
+[2022-01-24 04:16:01,424] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-42.json
+[2022-01-24 04:16:01,424] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-33.json
+[2022-01-24 04:16:01,425] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-40.json
+[2022-01-24 04:16:01,425] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-46.json
+[2022-01-24 04:16:01,425] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-27.json
+[2022-01-24 04:16:01,425] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-28.json
+[2022-01-24 04:16:01,426] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-60.json
+[2022-01-24 04:16:01,426] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-67.json
+[2022-01-24 04:16:01,426] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-15.json
+[2022-01-24 04:16:01,426] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-56.json
+[2022-01-24 04:16:01,430] {logging_mixin.py:109} INFO - 72
+[2022-01-24 04:16:01,470] {logging_mixin.py:109} INFO -      invoice_id    invoice_timestamp  customer_id  ...  qty is_discount       price
+0   20220102-25  2022-01-02T12:10:47  dqkmjqd3691  ...  241           0  18593.1500
+1   20220102-43  2022-01-02T02:47:02  uuksxwa1416  ...  158           1   5164.9410
+2   20220102-60  2022-01-02T06:26:25  tikvtot4348  ...   44           0   2523.4000
+3    20220102-4  2022-01-02T23:12:18  wjylguw4922  ...  127           0   5769.6100
+4   20220102-55  2022-01-02T21:35:28  ddxoebw5742  ...  237           1   9718.8960
+..          ...                  ...          ...  ...  ...         ...         ...
+67  20220102-34  2022-01-02T20:54:21  ltpzbph5176  ...  114           0   4652.3400
+68  20220102-63  2022-01-02T08:54:28  mhtiaua1626  ...  158           0   8618.9000
+69   20220102-7  2022-01-02T22:11:16  jgarnqf4770  ...   82           0   3346.4200
+70  20220102-22  2022-01-02T19:36:26  ggihugo4792  ...  259           1  10633.6076
+71   20220102-6  2022-01-02T21:01:37  epybnes3286  ...   50           0   3069.0000
+
+[72 rows x 8 columns]
+[2022-01-24 04:16:01,473] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/datawarehouse_airflow.py", line 59, in load_invoice_staging
+    invoice_df.to_sql('invoice_stagging_{}_{}_{}'.format(ts.year, ts.month, ts.day), redshift_hook.get_sqlalcemy_engine(), if_exists='replace', index=False)
+AttributeError: 'PostgresHook' object has no attribute 'get_sqlalcemy_engine'
+[2022-01-24 04:16:01,492] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=datawarehouse_etl, task_id=load_invoice_staging, execution_date=20220102T000000, start_date=20220124T041601, end_date=20220124T041601
+[2022-01-24 04:16:01,505] {standard_task_runner.py:92} ERROR - Failed to execute job 74 for task load_invoice_staging
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/datawarehouse_airflow.py", line 59, in load_invoice_staging
+    invoice_df.to_sql('invoice_stagging_{}_{}_{}'.format(ts.year, ts.month, ts.day), redshift_hook.get_sqlalcemy_engine(), if_exists='replace', index=False)
+AttributeError: 'PostgresHook' object has no attribute 'get_sqlalcemy_engine'
+[2022-01-24 04:16:01,519] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-01-24 04:16:01,552] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-01-24 04:20:51,626] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [queued]>
+[2022-01-24 04:20:51,635] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [queued]>
+[2022-01-24 04:20:51,635] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-24 04:20:51,635] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-24 04:20:51,635] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-24 04:20:51,644] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): load_invoice_staging> on 2022-01-02 00:00:00+00:00
+[2022-01-24 04:20:51,648] {standard_task_runner.py:52} INFO - Started process 7354 to run task
+[2022-01-24 04:20:51,651] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'datawarehouse_etl', 'load_invoice_staging', 'scheduled__2022-01-02T00:00:00+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/datawarehouse_***.py', '--cfg-path', '/tmp/tmp8n9exjvu', '--error-file', '/tmp/tmpm_15z6_t']
+[2022-01-24 04:20:51,652] {standard_task_runner.py:77} INFO - Job 77: Subtask load_invoice_staging
+[2022-01-24 04:20:51,692] {logging_mixin.py:109} INFO - Running <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [running]> on host cd9bb47288d1
+[2022-01-24 04:20:51,735] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=datawarehouse_etl
+AIRFLOW_CTX_TASK_ID=load_invoice_staging
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-02T00:00:00+00:00
+[2022-01-24 04:20:51,736] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,736] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,736] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,736] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,736] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,736] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,736] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,737] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,737] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,737] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,737] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,737] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 04:20:51,737] {logging_mixin.py:109} INFO - {'conf': <***.configuration.AirflowConfigParser object at 0x7f1e4dfc6a10>, 'dag': <DAG: datawarehouse_etl>, 'dag_run': <DagRun datawarehouse_etl @ 2022-01-02 00:00:00+00:00: scheduled__2022-01-02T00:00:00+00:00, externally triggered: False>, 'data_interval_end': DateTime(2022, 1, 3, 0, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_start': DateTime(2022, 1, 2, 0, 0, 0, tzinfo=Timezone('UTC')), 'ds': '2022-01-02', 'ds_nodash': '20220102', 'execution_date': DateTime(2022, 1, 2, 0, 0, 0, tzinfo=Timezone('UTC')), 'inlets': [], 'logical_date': DateTime(2022, 1, 2, 0, 0, 0, tzinfo=Timezone('UTC')), 'macros': <module '***.macros' from '/home/***/.local/lib/python3.7/site-packages/***/macros/__init__.py'>, 'next_ds': '2022-01-03', 'next_ds_nodash': '20220103', 'next_execution_date': DateTime(2022, 1, 3, 0, 0, 0, tzinfo=Timezone('UTC')), 'outlets': [], 'params': {}, 'prev_data_interval_start_success': None, 'prev_data_interval_end_success': None, 'prev_ds': '2022-01-01', 'prev_ds_nodash': '20220101', 'prev_execution_date': datetime.datetime(2022, 1, 1, 0, 0, tzinfo=Timezone('UTC')), 'prev_execution_date_success': None, 'prev_start_date_success': None, 'run_id': 'scheduled__2022-01-02T00:00:00+00:00', 'task': <Task(PythonOperator): load_invoice_staging>, 'task_instance': <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [running]>, 'task_instance_key_str': 'datawarehouse_etl__load_invoice_staging__20220102', 'test_mode': False, 'ti': <TaskInstance: datawarehouse_etl.load_invoice_staging scheduled__2022-01-02T00:00:00+00:00 [running]>, 'tomorrow_ds': '2022-01-03', 'tomorrow_ds_nodash': '20220103', 'ts': '2022-01-02T00:00:00+00:00', 'ts_nodash': '20220102T000000', 'ts_nodash_with_tz': '20220102T000000+0000', 'var': {'json': None, 'value': None}, 'conn': None, 'yesterday_ds': '2022-01-01', 'yesterday_ds_nodash': '20220101', 'key': 'value', 'ts_var': '2022-01-02T00:00:00+00:00', 'tsnodash_var': '20220102T000000', 'templates_dict': None}
+[2022-01-24 04:20:51,741] {logging_mixin.py:109} INFO - ts:  2022-01-02 00:00:00+00:00
+[2022-01-24 04:20:51,742] {logging_mixin.py:109} INFO - <class 'pandas._libs.tslibs.timestamps.Timestamp'>
+[2022-01-24 04:20:51,742] {logging_mixin.py:109} INFO - Object created.
+[2022-01-24 04:20:51,742] {logging_mixin.py:109} INFO - 2022 1 2
+[2022-01-24 04:20:51,742] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-18.json
+[2022-01-24 04:20:51,743] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-38.json
+[2022-01-24 04:20:51,743] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-57.json
+[2022-01-24 04:20:51,744] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-34.json
+[2022-01-24 04:20:51,744] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-51.json
+[2022-01-24 04:20:51,744] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-0.json
+[2022-01-24 04:20:51,745] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-41.json
+[2022-01-24 04:20:51,745] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-30.json
+[2022-01-24 04:20:51,745] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-12.json
+[2022-01-24 04:20:51,745] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-55.json
+[2022-01-24 04:20:51,746] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-26.json
+[2022-01-24 04:20:51,746] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-44.json
+[2022-01-24 04:20:51,747] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-45.json
+[2022-01-24 04:20:51,747] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-63.json
+[2022-01-24 04:20:51,747] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-3.json
+[2022-01-24 04:20:51,747] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-7.json
+[2022-01-24 04:20:51,748] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-1.json
+[2022-01-24 04:20:51,748] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-39.json
+[2022-01-24 04:20:51,748] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-11.json
+[2022-01-24 04:20:51,748] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-36.json
+[2022-01-24 04:20:51,749] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-53.json
+[2022-01-24 04:20:51,749] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-66.json
+[2022-01-24 04:20:51,749] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-20.json
+[2022-01-24 04:20:51,750] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-52.json
+[2022-01-24 04:20:51,750] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-68.json
+[2022-01-24 04:20:51,751] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-9.json
+[2022-01-24 04:20:51,751] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-31.json
+[2022-01-24 04:20:51,751] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-17.json
+[2022-01-24 04:20:51,752] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-10.json
+[2022-01-24 04:20:51,752] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-14.json
+[2022-01-24 04:20:51,752] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-70.json
+[2022-01-24 04:20:51,753] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-37.json
+[2022-01-24 04:20:51,753] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-25.json
+[2022-01-24 04:20:51,753] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-59.json
+[2022-01-24 04:20:51,753] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-62.json
+[2022-01-24 04:20:51,754] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-71.json
+[2022-01-24 04:20:51,754] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-35.json
+[2022-01-24 04:20:51,754] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-16.json
+[2022-01-24 04:20:51,754] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-2.json
+[2022-01-24 04:20:51,754] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-23.json
+[2022-01-24 04:20:51,754] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-54.json
+[2022-01-24 04:20:51,755] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-69.json
+[2022-01-24 04:20:51,755] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-49.json
+[2022-01-24 04:20:51,755] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-19.json
+[2022-01-24 04:20:51,755] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-32.json
+[2022-01-24 04:20:51,755] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-4.json
+[2022-01-24 04:20:51,755] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-61.json
+[2022-01-24 04:20:51,756] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-64.json
+[2022-01-24 04:20:51,756] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-13.json
+[2022-01-24 04:20:51,756] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-43.json
+[2022-01-24 04:20:51,757] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-65.json
+[2022-01-24 04:20:51,757] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-50.json
+[2022-01-24 04:20:51,757] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-24.json
+[2022-01-24 04:20:51,757] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-8.json
+[2022-01-24 04:20:51,757] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-29.json
+[2022-01-24 04:20:51,757] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-48.json
+[2022-01-24 04:20:51,758] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-47.json
+[2022-01-24 04:20:51,758] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-22.json
+[2022-01-24 04:20:51,758] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-58.json
+[2022-01-24 04:20:51,758] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-5.json
+[2022-01-24 04:20:51,759] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-6.json
+[2022-01-24 04:20:51,759] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-21.json
+[2022-01-24 04:20:51,759] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-42.json
+[2022-01-24 04:20:51,759] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-33.json
+[2022-01-24 04:20:51,759] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-40.json
+[2022-01-24 04:20:51,760] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-46.json
+[2022-01-24 04:20:51,760] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-27.json
+[2022-01-24 04:20:51,760] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-28.json
+[2022-01-24 04:20:51,760] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-60.json
+[2022-01-24 04:20:51,760] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-67.json
+[2022-01-24 04:20:51,761] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-15.json
+[2022-01-24 04:20:51,761] {logging_mixin.py:109} INFO - plugins/invoices/d2022-1-2/invoice_2022-1-2-56.json
+[2022-01-24 04:20:51,764] {logging_mixin.py:109} INFO - 72
+[2022-01-24 04:20:51,794] {logging_mixin.py:109} INFO -      invoice_id    invoice_timestamp  customer_id  ...  qty is_discount       price
+0   20220102-25  2022-01-02T12:10:47  dqkmjqd3691  ...  241           0  18593.1500
+1   20220102-43  2022-01-02T02:47:02  uuksxwa1416  ...  158           1   5164.9410
+2   20220102-60  2022-01-02T06:26:25  tikvtot4348  ...   44           0   2523.4000
+3    20220102-4  2022-01-02T23:12:18  wjylguw4922  ...  127           0   5769.6100
+4   20220102-55  2022-01-02T21:35:28  ddxoebw5742  ...  237           1   9718.8960
+..          ...                  ...          ...  ...  ...         ...         ...
+67  20220102-34  2022-01-02T20:54:21  ltpzbph5176  ...  114           0   4652.3400
+68  20220102-63  2022-01-02T08:54:28  mhtiaua1626  ...  158           0   8618.9000
+69   20220102-7  2022-01-02T22:11:16  jgarnqf4770  ...   82           0   3346.4200
+70  20220102-22  2022-01-02T19:36:26  ggihugo4792  ...  259           1  10633.6076
+71   20220102-6  2022-01-02T21:01:37  epybnes3286  ...   50           0   3069.0000
+
+[72 rows x 8 columns]
+[2022-01-24 04:20:51,795] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/datawarehouse_airflow.py", line 59, in load_invoice_staging
+    invoice_df.to_sql('invoice_stagging_{}_{}_{}'.format(ts.year, ts.month, ts.day), redshift_hook.get_sqlalcemy_engine(), if_exists='replace', index=False)
+AttributeError: 'PostgresHook' object has no attribute 'get_sqlalcemy_engine'
+[2022-01-24 04:20:51,808] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=datawarehouse_etl, task_id=load_invoice_staging, execution_date=20220102T000000, start_date=20220124T042051, end_date=20220124T042051
+[2022-01-24 04:20:51,822] {standard_task_runner.py:92} ERROR - Failed to execute job 77 for task load_invoice_staging
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/datawarehouse_airflow.py", line 59, in load_invoice_staging
+    invoice_df.to_sql('invoice_stagging_{}_{}_{}'.format(ts.year, ts.month, ts.day), redshift_hook.get_sqlalcemy_engine(), if_exists='replace', index=False)
+AttributeError: 'PostgresHook' object has no attribute 'get_sqlalcemy_engine'
+[2022-01-24 04:20:51,863] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-01-24 04:20:51,964] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

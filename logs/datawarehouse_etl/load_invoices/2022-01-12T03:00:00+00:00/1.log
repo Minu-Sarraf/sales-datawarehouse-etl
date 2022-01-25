@@ -1,0 +1,60 @@
+[2022-01-24 02:16:20,550] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: datawarehouse_etl.load_invoices scheduled__2022-01-12T03:00:00+00:00 [queued]>
+[2022-01-24 02:16:20,575] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: datawarehouse_etl.load_invoices scheduled__2022-01-12T03:00:00+00:00 [queued]>
+[2022-01-24 02:16:20,575] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-24 02:16:20,576] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-24 02:16:20,576] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-24 02:16:20,605] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): load_invoices> on 2022-01-12 03:00:00+00:00
+[2022-01-24 02:16:20,617] {standard_task_runner.py:52} INFO - Started process 1597 to run task
+[2022-01-24 02:16:20,625] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'datawarehouse_etl', 'load_invoices', 'scheduled__2022-01-12T03:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/datawarehouse_***.py', '--cfg-path', '/tmp/tmpe9wptaol', '--error-file', '/tmp/tmpuro3ermb']
+[2022-01-24 02:16:20,626] {standard_task_runner.py:77} INFO - Job 8: Subtask load_invoices
+[2022-01-24 02:16:20,707] {logging_mixin.py:109} INFO - Running <TaskInstance: datawarehouse_etl.load_invoices scheduled__2022-01-12T03:00:00+00:00 [running]> on host cd9bb47288d1
+[2022-01-24 02:16:20,778] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=datawarehouse_etl
+AIRFLOW_CTX_TASK_ID=load_invoices
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-12T03:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-12T03:00:00+00:00
+[2022-01-24 02:16:20,780] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,780] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,781] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,781] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,781] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,781] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,781] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,781] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,781] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,782] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,782] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,782] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-24 02:16:20,782] {logging_mixin.py:109} INFO - {'conf': <***.configuration.AirflowConfigParser object at 0x7f1e4dfc6a10>, 'dag': <DAG: datawarehouse_etl>, 'dag_run': <DagRun datawarehouse_etl @ 2022-01-12 03:00:00+00:00: scheduled__2022-01-12T03:00:00+00:00, externally triggered: False>, 'data_interval_end': DateTime(2022, 1, 12, 4, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_start': DateTime(2022, 1, 12, 3, 0, 0, tzinfo=Timezone('UTC')), 'ds': '2022-01-12', 'ds_nodash': '20220112', 'execution_date': DateTime(2022, 1, 12, 3, 0, 0, tzinfo=Timezone('UTC')), 'inlets': [], 'logical_date': DateTime(2022, 1, 12, 3, 0, 0, tzinfo=Timezone('UTC')), 'macros': <module '***.macros' from '/home/***/.local/lib/python3.7/site-packages/***/macros/__init__.py'>, 'next_ds': '2022-01-12', 'next_ds_nodash': '20220112', 'next_execution_date': DateTime(2022, 1, 12, 4, 0, 0, tzinfo=Timezone('UTC')), 'outlets': [], 'params': {}, 'prev_data_interval_start_success': None, 'prev_data_interval_end_success': None, 'prev_ds': '2022-01-12', 'prev_ds_nodash': '20220112', 'prev_execution_date': DateTime(2022, 1, 12, 2, 0, 0, tzinfo=Timezone('UTC')), 'prev_execution_date_success': None, 'prev_start_date_success': None, 'run_id': 'scheduled__2022-01-12T03:00:00+00:00', 'task': <Task(PythonOperator): load_invoices>, 'task_instance': <TaskInstance: datawarehouse_etl.load_invoices scheduled__2022-01-12T03:00:00+00:00 [running]>, 'task_instance_key_str': 'datawarehouse_etl__load_invoices__20220112', 'test_mode': False, 'ti': <TaskInstance: datawarehouse_etl.load_invoices scheduled__2022-01-12T03:00:00+00:00 [running]>, 'tomorrow_ds': '2022-01-13', 'tomorrow_ds_nodash': '20220113', 'ts': '2022-01-12T03:00:00+00:00', 'ts_nodash': '20220112T030000', 'ts_nodash_with_tz': '20220112T030000+0000', 'var': {'json': None, 'value': None}, 'conn': None, 'yesterday_ds': '2022-01-11', 'yesterday_ds_nodash': '20220111', 'key': 'value', 'ts_var': '2022-01-12T03:00:00+00:00', 'tsnodash_var': '20220112T030000', 'templates_dict': None}
+[2022-01-24 02:16:20,783] {logging_mixin.py:109} INFO - Object created.
+[2022-01-24 02:16:20,783] {python.py:175} INFO - Done. Returned value was: None
+[2022-01-24 02:16:20,809] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=datawarehouse_etl, task_id=load_invoices, execution_date=20220112T030000, start_date=20220124T021620, end_date=20220124T021620
+[2022-01-24 02:16:20,848] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-24 02:16:20,899] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

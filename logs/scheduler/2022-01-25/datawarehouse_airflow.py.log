@@ -1,0 +1,1155 @@
+[2022-01-25 01:16:49,188] {processor.py:163} INFO - Started process (PID=29) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:16:49,189] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:16:49,190] {logging_mixin.py:109} INFO - [2022-01-25 01:16:49,190] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:16:49,922] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:16:49,930] {logging_mixin.py:109} INFO - [2022-01-25 01:16:49,930] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:16:49,946] {logging_mixin.py:109} INFO - [2022-01-25 01:16:49,946] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:16:49,954] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.770 seconds
+[2022-01-25 01:17:20,513] {processor.py:163} INFO - Started process (PID=100) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:17:20,515] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:17:20,515] {logging_mixin.py:109} INFO - [2022-01-25 01:17:20,515] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:17:20,908] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:17:20,915] {logging_mixin.py:109} INFO - [2022-01-25 01:17:20,915] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:17:20,926] {logging_mixin.py:109} INFO - [2022-01-25 01:17:20,926] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:17:20,934] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.423 seconds
+[2022-01-25 01:17:51,393] {processor.py:163} INFO - Started process (PID=169) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:17:51,405] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:17:51,406] {logging_mixin.py:109} INFO - [2022-01-25 01:17:51,406] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:17:52,939] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:17:52,983] {logging_mixin.py:109} INFO - [2022-01-25 01:17:52,983] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:17:53,041] {logging_mixin.py:109} INFO - [2022-01-25 01:17:53,041] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:17:53,067] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 1.678 seconds
+[2022-01-25 01:18:23,114] {processor.py:163} INFO - Started process (PID=234) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:18:23,115] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:18:23,115] {logging_mixin.py:109} INFO - [2022-01-25 01:18:23,115] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:18:23,522] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:18:23,528] {logging_mixin.py:109} INFO - [2022-01-25 01:18:23,528] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:18:23,540] {logging_mixin.py:109} INFO - [2022-01-25 01:18:23,540] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:18:23,548] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.438 seconds
+[2022-01-25 01:18:54,367] {processor.py:163} INFO - Started process (PID=302) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:18:54,369] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:18:54,370] {logging_mixin.py:109} INFO - [2022-01-25 01:18:54,370] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:18:54,773] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:18:54,780] {logging_mixin.py:109} INFO - [2022-01-25 01:18:54,780] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:18:54,796] {logging_mixin.py:109} INFO - [2022-01-25 01:18:54,796] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:18:54,807] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.444 seconds
+[2022-01-25 01:19:25,449] {processor.py:163} INFO - Started process (PID=361) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:19:25,452] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:19:25,452] {logging_mixin.py:109} INFO - [2022-01-25 01:19:25,452] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:19:25,835] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:19:25,841] {logging_mixin.py:109} INFO - [2022-01-25 01:19:25,841] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:19:25,852] {logging_mixin.py:109} INFO - [2022-01-25 01:19:25,852] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:19:25,861] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.414 seconds
+[2022-01-25 01:19:56,376] {processor.py:163} INFO - Started process (PID=430) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:19:56,378] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:19:56,379] {logging_mixin.py:109} INFO - [2022-01-25 01:19:56,379] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:19:56,790] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:19:56,798] {logging_mixin.py:109} INFO - [2022-01-25 01:19:56,798] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:19:56,814] {logging_mixin.py:109} INFO - [2022-01-25 01:19:56,814] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:19:56,825] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.451 seconds
+[2022-01-25 01:20:27,209] {processor.py:163} INFO - Started process (PID=498) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:20:27,209] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:20:27,210] {logging_mixin.py:109} INFO - [2022-01-25 01:20:27,209] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:20:27,647] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:20:27,655] {logging_mixin.py:109} INFO - [2022-01-25 01:20:27,654] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:20:27,667] {logging_mixin.py:109} INFO - [2022-01-25 01:20:27,667] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:20:27,677] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.471 seconds
+[2022-01-25 01:20:58,114] {processor.py:163} INFO - Started process (PID=557) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:20:58,114] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:20:58,115] {logging_mixin.py:109} INFO - [2022-01-25 01:20:58,115] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:20:58,489] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:20:58,496] {logging_mixin.py:109} INFO - [2022-01-25 01:20:58,496] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:20:58,508] {logging_mixin.py:109} INFO - [2022-01-25 01:20:58,508] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:20:58,517] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.406 seconds
+[2022-01-25 01:21:28,785] {processor.py:163} INFO - Started process (PID=625) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:21:28,787] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:21:28,788] {logging_mixin.py:109} INFO - [2022-01-25 01:21:28,788] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:21:29,159] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:21:29,165] {logging_mixin.py:109} INFO - [2022-01-25 01:21:29,165] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:21:29,178] {logging_mixin.py:109} INFO - [2022-01-25 01:21:29,178] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:21:29,186] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.402 seconds
+[2022-01-25 01:21:59,515] {processor.py:163} INFO - Started process (PID=684) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:21:59,517] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:21:59,517] {logging_mixin.py:109} INFO - [2022-01-25 01:21:59,517] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:21:59,919] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:21:59,926] {logging_mixin.py:109} INFO - [2022-01-25 01:21:59,926] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:21:59,939] {logging_mixin.py:109} INFO - [2022-01-25 01:21:59,939] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:21:59,949] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.436 seconds
+[2022-01-25 01:22:30,680] {processor.py:163} INFO - Started process (PID=752) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:22:30,681] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:22:30,682] {logging_mixin.py:109} INFO - [2022-01-25 01:22:30,682] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:22:31,084] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:22:31,090] {logging_mixin.py:109} INFO - [2022-01-25 01:22:31,090] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:22:31,102] {logging_mixin.py:109} INFO - [2022-01-25 01:22:31,101] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:22:31,112] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.434 seconds
+[2022-01-25 01:23:01,567] {processor.py:163} INFO - Started process (PID=820) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:23:01,569] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:23:01,569] {logging_mixin.py:109} INFO - [2022-01-25 01:23:01,569] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:23:01,951] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:23:01,957] {logging_mixin.py:109} INFO - [2022-01-25 01:23:01,957] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:23:01,969] {logging_mixin.py:109} INFO - [2022-01-25 01:23:01,969] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:23:01,978] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.413 seconds
+[2022-01-25 01:23:32,451] {processor.py:163} INFO - Started process (PID=880) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:23:32,452] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:23:32,453] {logging_mixin.py:109} INFO - [2022-01-25 01:23:32,453] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:23:32,839] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:23:32,846] {logging_mixin.py:109} INFO - [2022-01-25 01:23:32,845] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:23:32,859] {logging_mixin.py:109} INFO - [2022-01-25 01:23:32,859] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:23:32,871] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.422 seconds
+[2022-01-25 01:24:03,183] {processor.py:163} INFO - Started process (PID=949) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:24:03,185] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:24:03,186] {logging_mixin.py:109} INFO - [2022-01-25 01:24:03,186] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:24:03,771] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:24:03,780] {logging_mixin.py:109} INFO - [2022-01-25 01:24:03,780] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:24:03,798] {logging_mixin.py:109} INFO - [2022-01-25 01:24:03,798] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:24:03,810] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.630 seconds
+[2022-01-25 01:24:33,930] {processor.py:163} INFO - Started process (PID=1009) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:24:33,931] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:24:33,932] {logging_mixin.py:109} INFO - [2022-01-25 01:24:33,932] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:24:34,451] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:24:34,465] {logging_mixin.py:109} INFO - [2022-01-25 01:24:34,464] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:24:34,490] {logging_mixin.py:109} INFO - [2022-01-25 01:24:34,490] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:24:34,512] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.585 seconds
+[2022-01-25 01:25:05,087] {processor.py:163} INFO - Started process (PID=1084) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:25:05,087] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:25:05,088] {logging_mixin.py:109} INFO - [2022-01-25 01:25:05,088] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:25:05,558] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:25:05,564] {logging_mixin.py:109} INFO - [2022-01-25 01:25:05,564] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:25:05,576] {logging_mixin.py:109} INFO - [2022-01-25 01:25:05,576] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:25:05,584] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.499 seconds
+[2022-01-25 01:25:35,677] {processor.py:163} INFO - Started process (PID=1157) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:25:35,678] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:25:35,678] {logging_mixin.py:109} INFO - [2022-01-25 01:25:35,678] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:25:36,073] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:25:36,079] {logging_mixin.py:109} INFO - [2022-01-25 01:25:36,079] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:25:36,091] {logging_mixin.py:109} INFO - [2022-01-25 01:25:36,091] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:25:36,098] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.424 seconds
+[2022-01-25 01:26:06,733] {processor.py:163} INFO - Started process (PID=1216) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:26:06,734] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:26:06,734] {logging_mixin.py:109} INFO - [2022-01-25 01:26:06,734] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:26:07,151] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:26:07,157] {logging_mixin.py:109} INFO - [2022-01-25 01:26:07,156] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:26:07,167] {logging_mixin.py:109} INFO - [2022-01-25 01:26:07,167] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:26:07,174] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.443 seconds
+[2022-01-25 01:26:37,248] {processor.py:163} INFO - Started process (PID=1284) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:26:37,249] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:26:37,250] {logging_mixin.py:109} INFO - [2022-01-25 01:26:37,249] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:26:37,950] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:26:37,958] {logging_mixin.py:109} INFO - [2022-01-25 01:26:37,957] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:26:37,974] {logging_mixin.py:109} INFO - [2022-01-25 01:26:37,973] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:26:37,982] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.736 seconds
+[2022-01-25 01:27:08,248] {processor.py:163} INFO - Started process (PID=1343) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:27:08,249] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:27:08,250] {logging_mixin.py:109} INFO - [2022-01-25 01:27:08,250] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:27:08,917] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:27:08,932] {logging_mixin.py:109} INFO - [2022-01-25 01:27:08,932] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:27:08,956] {logging_mixin.py:109} INFO - [2022-01-25 01:27:08,956] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:27:08,972] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.726 seconds
+[2022-01-25 01:27:39,733] {processor.py:163} INFO - Started process (PID=1403) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:27:39,735] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:27:39,736] {logging_mixin.py:109} INFO - [2022-01-25 01:27:39,735] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:27:40,473] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:27:40,486] {logging_mixin.py:109} INFO - [2022-01-25 01:27:40,485] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:27:40,506] {logging_mixin.py:109} INFO - [2022-01-25 01:27:40,506] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:27:40,522] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.796 seconds
+[2022-01-25 01:28:10,993] {processor.py:163} INFO - Started process (PID=1471) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:28:10,994] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:28:10,994] {logging_mixin.py:109} INFO - [2022-01-25 01:28:10,994] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:28:11,436] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:28:11,450] {logging_mixin.py:109} INFO - [2022-01-25 01:28:11,448] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:28:11,482] {logging_mixin.py:109} INFO - [2022-01-25 01:28:11,482] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:28:11,493] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.503 seconds
+[2022-01-25 01:28:41,690] {processor.py:163} INFO - Started process (PID=1540) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:28:41,691] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:28:41,691] {logging_mixin.py:109} INFO - [2022-01-25 01:28:41,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:28:42,135] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:28:42,143] {logging_mixin.py:109} INFO - [2022-01-25 01:28:42,142] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:28:42,154] {logging_mixin.py:109} INFO - [2022-01-25 01:28:42,154] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:28:42,162] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.474 seconds
+[2022-01-25 01:29:12,583] {processor.py:163} INFO - Started process (PID=1598) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:29:12,585] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:29:12,585] {logging_mixin.py:109} INFO - [2022-01-25 01:29:12,585] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:29:12,971] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:29:12,980] {logging_mixin.py:109} INFO - [2022-01-25 01:29:12,980] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:29:12,996] {logging_mixin.py:109} INFO - [2022-01-25 01:29:12,996] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:29:13,005] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.424 seconds
+[2022-01-25 01:29:43,721] {processor.py:163} INFO - Started process (PID=1666) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:29:43,722] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:29:43,722] {logging_mixin.py:109} INFO - [2022-01-25 01:29:43,722] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:29:44,109] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:29:44,116] {logging_mixin.py:109} INFO - [2022-01-25 01:29:44,116] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:29:44,131] {logging_mixin.py:109} INFO - [2022-01-25 01:29:44,131] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:29:44,139] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.421 seconds
+[2022-01-25 01:30:14,627] {processor.py:163} INFO - Started process (PID=1727) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:30:14,629] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:30:14,630] {logging_mixin.py:109} INFO - [2022-01-25 01:30:14,629] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:30:15,080] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:30:15,089] {logging_mixin.py:109} INFO - [2022-01-25 01:30:15,088] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:30:15,107] {logging_mixin.py:109} INFO - [2022-01-25 01:30:15,107] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:30:15,116] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.491 seconds
+[2022-01-25 01:30:45,669] {processor.py:163} INFO - Started process (PID=1796) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:30:45,671] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:30:45,672] {logging_mixin.py:109} INFO - [2022-01-25 01:30:45,672] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:30:46,067] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:30:46,075] {logging_mixin.py:109} INFO - [2022-01-25 01:30:46,075] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:30:46,089] {logging_mixin.py:109} INFO - [2022-01-25 01:30:46,089] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:30:46,096] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.430 seconds
+[2022-01-25 01:31:16,704] {processor.py:163} INFO - Started process (PID=1863) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:31:16,705] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:31:16,706] {logging_mixin.py:109} INFO - [2022-01-25 01:31:16,706] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:31:17,097] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:31:17,105] {logging_mixin.py:109} INFO - [2022-01-25 01:31:17,105] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:31:17,118] {logging_mixin.py:109} INFO - [2022-01-25 01:31:17,118] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:31:17,127] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.426 seconds
+[2022-01-25 01:31:47,870] {processor.py:163} INFO - Started process (PID=1922) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:31:47,872] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:31:47,873] {logging_mixin.py:109} INFO - [2022-01-25 01:31:47,873] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:31:48,365] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:31:48,385] {logging_mixin.py:109} INFO - [2022-01-25 01:31:48,384] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:31:48,404] {logging_mixin.py:109} INFO - [2022-01-25 01:31:48,404] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:31:48,414] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.546 seconds
+[2022-01-25 01:32:18,572] {processor.py:163} INFO - Started process (PID=1990) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:32:18,574] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:32:18,575] {logging_mixin.py:109} INFO - [2022-01-25 01:32:18,575] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:32:19,087] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:32:19,097] {logging_mixin.py:109} INFO - [2022-01-25 01:32:19,096] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:32:19,121] {logging_mixin.py:109} INFO - [2022-01-25 01:32:19,121] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:32:19,130] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.563 seconds
+[2022-01-25 01:32:49,878] {processor.py:163} INFO - Started process (PID=2050) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:32:49,879] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:32:49,879] {logging_mixin.py:109} INFO - [2022-01-25 01:32:49,879] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:32:50,388] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:32:50,401] {logging_mixin.py:109} INFO - [2022-01-25 01:32:50,400] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:32:50,429] {logging_mixin.py:109} INFO - [2022-01-25 01:32:50,429] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:32:50,443] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.567 seconds
+[2022-01-25 01:33:21,222] {processor.py:163} INFO - Started process (PID=2119) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:33:21,224] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:33:21,225] {logging_mixin.py:109} INFO - [2022-01-25 01:33:21,225] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:33:21,711] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:33:21,722] {logging_mixin.py:109} INFO - [2022-01-25 01:33:21,722] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:33:21,738] {logging_mixin.py:109} INFO - [2022-01-25 01:33:21,738] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:33:21,750] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.531 seconds
+[2022-01-25 01:33:52,548] {processor.py:163} INFO - Started process (PID=2187) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:33:52,550] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:33:52,552] {logging_mixin.py:109} INFO - [2022-01-25 01:33:52,552] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:33:53,051] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:33:53,062] {logging_mixin.py:109} INFO - [2022-01-25 01:33:53,062] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:33:53,080] {logging_mixin.py:109} INFO - [2022-01-25 01:33:53,079] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:33:53,092] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.547 seconds
+[2022-01-25 01:34:23,193] {processor.py:163} INFO - Started process (PID=2248) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:34:23,195] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:34:23,197] {logging_mixin.py:109} INFO - [2022-01-25 01:34:23,196] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:34:23,772] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:34:23,782] {logging_mixin.py:109} INFO - [2022-01-25 01:34:23,782] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:34:23,802] {logging_mixin.py:109} INFO - [2022-01-25 01:34:23,802] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:34:23,812] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.622 seconds
+[2022-01-25 01:34:54,540] {processor.py:163} INFO - Started process (PID=2317) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:34:54,541] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:34:54,541] {logging_mixin.py:109} INFO - [2022-01-25 01:34:54,541] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:34:55,085] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:34:55,092] {logging_mixin.py:109} INFO - [2022-01-25 01:34:55,092] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:34:55,109] {logging_mixin.py:109} INFO - [2022-01-25 01:34:55,109] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:34:55,122] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.586 seconds
+[2022-01-25 01:35:25,375] {processor.py:163} INFO - Started process (PID=2376) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:35:25,376] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:35:25,376] {logging_mixin.py:109} INFO - [2022-01-25 01:35:25,376] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:35:25,909] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:35:25,923] {logging_mixin.py:109} INFO - [2022-01-25 01:35:25,922] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:35:25,944] {logging_mixin.py:109} INFO - [2022-01-25 01:35:25,944] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:35:25,957] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.584 seconds
+[2022-01-25 01:35:56,093] {processor.py:163} INFO - Started process (PID=2444) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:35:56,095] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:35:56,096] {logging_mixin.py:109} INFO - [2022-01-25 01:35:56,096] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:35:56,645] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:35:56,661] {logging_mixin.py:109} INFO - [2022-01-25 01:35:56,661] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:35:56,697] {logging_mixin.py:109} INFO - [2022-01-25 01:35:56,697] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:35:56,723] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.633 seconds
+[2022-01-25 01:36:27,409] {processor.py:163} INFO - Started process (PID=2503) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:36:27,411] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:36:27,411] {logging_mixin.py:109} INFO - [2022-01-25 01:36:27,411] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:36:27,881] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:36:27,890] {logging_mixin.py:109} INFO - [2022-01-25 01:36:27,890] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:36:27,907] {logging_mixin.py:109} INFO - [2022-01-25 01:36:27,906] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:36:27,916] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.509 seconds
+[2022-01-25 01:36:58,085] {processor.py:163} INFO - Started process (PID=2571) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:36:58,088] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:36:58,089] {logging_mixin.py:109} INFO - [2022-01-25 01:36:58,089] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:36:58,610] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:36:58,620] {logging_mixin.py:109} INFO - [2022-01-25 01:36:58,619] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:36:58,640] {logging_mixin.py:109} INFO - [2022-01-25 01:36:58,640] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:36:58,651] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.569 seconds
+[2022-01-25 01:37:28,752] {processor.py:163} INFO - Started process (PID=2631) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:37:28,754] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:37:28,755] {logging_mixin.py:109} INFO - [2022-01-25 01:37:28,755] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:37:29,256] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:37:29,268] {logging_mixin.py:109} INFO - [2022-01-25 01:37:29,268] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:37:29,287] {logging_mixin.py:109} INFO - [2022-01-25 01:37:29,287] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:37:29,297] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.549 seconds
+[2022-01-25 01:37:59,409] {processor.py:163} INFO - Started process (PID=2700) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:37:59,411] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:37:59,413] {logging_mixin.py:109} INFO - [2022-01-25 01:37:59,412] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:38:00,038] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:38:00,048] {logging_mixin.py:109} INFO - [2022-01-25 01:38:00,047] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:38:00,066] {logging_mixin.py:109} INFO - [2022-01-25 01:38:00,066] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:38:00,075] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.669 seconds
+[2022-01-25 01:38:30,540] {processor.py:163} INFO - Started process (PID=2760) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:38:30,543] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:38:30,543] {logging_mixin.py:109} INFO - [2022-01-25 01:38:30,543] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:38:31,048] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:38:31,063] {logging_mixin.py:109} INFO - [2022-01-25 01:38:31,063] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:38:31,092] {logging_mixin.py:109} INFO - [2022-01-25 01:38:31,091] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:38:31,102] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.567 seconds
+[2022-01-25 01:39:01,197] {processor.py:163} INFO - Started process (PID=2828) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:39:01,199] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:39:01,199] {logging_mixin.py:109} INFO - [2022-01-25 01:39:01,199] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:39:01,672] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:39:01,683] {logging_mixin.py:109} INFO - [2022-01-25 01:39:01,683] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:39:01,698] {logging_mixin.py:109} INFO - [2022-01-25 01:39:01,698] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:39:01,709] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.517 seconds
+[2022-01-25 01:39:31,938] {processor.py:163} INFO - Started process (PID=2887) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:39:31,940] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:39:31,940] {logging_mixin.py:109} INFO - [2022-01-25 01:39:31,940] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:39:32,444] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:39:32,457] {logging_mixin.py:109} INFO - [2022-01-25 01:39:32,457] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:39:32,475] {logging_mixin.py:109} INFO - [2022-01-25 01:39:32,475] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:39:32,491] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.555 seconds
+[2022-01-25 01:40:02,781] {processor.py:163} INFO - Started process (PID=2955) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:40:02,782] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:40:02,782] {logging_mixin.py:109} INFO - [2022-01-25 01:40:02,782] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:40:03,384] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:40:03,398] {logging_mixin.py:109} INFO - [2022-01-25 01:40:03,397] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:40:03,413] {logging_mixin.py:109} INFO - [2022-01-25 01:40:03,413] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:40:03,422] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.644 seconds
+[2022-01-25 01:40:33,550] {processor.py:163} INFO - Started process (PID=3018) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:40:33,550] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:40:33,551] {logging_mixin.py:109} INFO - [2022-01-25 01:40:33,551] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:40:34,146] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:40:34,155] {logging_mixin.py:109} INFO - [2022-01-25 01:40:34,154] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:40:34,172] {logging_mixin.py:109} INFO - [2022-01-25 01:40:34,172] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:40:34,186] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.640 seconds
+[2022-01-25 01:41:04,439] {processor.py:163} INFO - Started process (PID=3086) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:41:04,441] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:41:04,441] {logging_mixin.py:109} INFO - [2022-01-25 01:41:04,441] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:41:04,993] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:41:05,001] {logging_mixin.py:109} INFO - [2022-01-25 01:41:05,000] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:41:05,016] {logging_mixin.py:109} INFO - [2022-01-25 01:41:05,016] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:41:05,026] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.591 seconds
+[2022-01-25 01:41:35,229] {processor.py:163} INFO - Started process (PID=3145) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:41:35,230] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:41:35,230] {logging_mixin.py:109} INFO - [2022-01-25 01:41:35,230] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:41:35,754] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:41:35,765] {logging_mixin.py:109} INFO - [2022-01-25 01:41:35,765] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:41:35,783] {logging_mixin.py:109} INFO - [2022-01-25 01:41:35,783] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:41:35,798] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.573 seconds
+[2022-01-25 01:42:06,025] {processor.py:163} INFO - Started process (PID=3214) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:42:06,026] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:42:06,026] {logging_mixin.py:109} INFO - [2022-01-25 01:42:06,026] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:42:06,405] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:42:06,416] {logging_mixin.py:109} INFO - [2022-01-25 01:42:06,415] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:42:06,433] {logging_mixin.py:109} INFO - [2022-01-25 01:42:06,433] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:42:06,443] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.422 seconds
+[2022-01-25 01:42:37,218] {processor.py:163} INFO - Started process (PID=3273) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:42:37,220] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:42:37,221] {logging_mixin.py:109} INFO - [2022-01-25 01:42:37,221] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:42:37,837] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:42:37,851] {logging_mixin.py:109} INFO - [2022-01-25 01:42:37,850] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:42:37,869] {logging_mixin.py:109} INFO - [2022-01-25 01:42:37,869] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:42:37,885] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.669 seconds
+[2022-01-25 01:43:07,990] {processor.py:163} INFO - Started process (PID=3342) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:43:07,991] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:43:07,991] {logging_mixin.py:109} INFO - [2022-01-25 01:43:07,991] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:43:08,339] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:43:08,350] {logging_mixin.py:109} INFO - [2022-01-25 01:43:08,349] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:43:08,369] {logging_mixin.py:109} INFO - [2022-01-25 01:43:08,369] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:43:08,377] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.390 seconds
+[2022-01-25 01:43:38,976] {processor.py:163} INFO - Started process (PID=3400) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:43:38,978] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:43:38,979] {logging_mixin.py:109} INFO - [2022-01-25 01:43:38,979] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:43:39,381] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:43:39,390] {logging_mixin.py:109} INFO - [2022-01-25 01:43:39,390] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:43:39,412] {logging_mixin.py:109} INFO - [2022-01-25 01:43:39,411] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:43:39,423] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.453 seconds
+[2022-01-25 01:44:09,508] {processor.py:163} INFO - Started process (PID=3471) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:44:09,509] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:44:09,509] {logging_mixin.py:109} INFO - [2022-01-25 01:44:09,509] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:44:09,876] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:44:09,889] {logging_mixin.py:109} INFO - [2022-01-25 01:44:09,888] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:44:09,907] {logging_mixin.py:109} INFO - [2022-01-25 01:44:09,907] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:44:09,917] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.411 seconds
+[2022-01-25 01:44:40,543] {processor.py:163} INFO - Started process (PID=3534) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:44:40,545] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:44:40,545] {logging_mixin.py:109} INFO - [2022-01-25 01:44:40,545] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:44:41,021] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:44:41,032] {logging_mixin.py:109} INFO - [2022-01-25 01:44:41,032] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:44:41,051] {logging_mixin.py:109} INFO - [2022-01-25 01:44:41,051] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:44:41,060] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.519 seconds
+[2022-01-25 01:45:11,529] {processor.py:163} INFO - Started process (PID=3599) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:45:11,531] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:45:11,531] {logging_mixin.py:109} INFO - [2022-01-25 01:45:11,531] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:45:11,860] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:45:11,869] {logging_mixin.py:109} INFO - [2022-01-25 01:45:11,868] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:45:11,884] {logging_mixin.py:109} INFO - [2022-01-25 01:45:11,884] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:45:11,898] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.371 seconds
+[2022-01-25 01:45:42,128] {processor.py:163} INFO - Started process (PID=3667) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:45:42,130] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:45:42,130] {logging_mixin.py:109} INFO - [2022-01-25 01:45:42,130] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:45:42,455] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:45:42,462] {logging_mixin.py:109} INFO - [2022-01-25 01:45:42,461] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:45:42,473] {logging_mixin.py:109} INFO - [2022-01-25 01:45:42,473] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:45:42,481] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.356 seconds
+[2022-01-25 01:46:12,871] {processor.py:163} INFO - Started process (PID=3726) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:46:12,874] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:46:12,875] {logging_mixin.py:109} INFO - [2022-01-25 01:46:12,875] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:46:13,212] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:46:13,220] {logging_mixin.py:109} INFO - [2022-01-25 01:46:13,219] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:46:13,232] {logging_mixin.py:109} INFO - [2022-01-25 01:46:13,232] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:46:13,239] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.371 seconds
+[2022-01-25 01:46:43,506] {processor.py:163} INFO - Started process (PID=3794) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:46:43,508] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:46:43,508] {logging_mixin.py:109} INFO - [2022-01-25 01:46:43,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:46:43,829] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:46:43,837] {logging_mixin.py:109} INFO - [2022-01-25 01:46:43,837] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:46:43,850] {logging_mixin.py:109} INFO - [2022-01-25 01:46:43,850] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:46:43,859] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.356 seconds
+[2022-01-25 01:47:14,265] {processor.py:163} INFO - Started process (PID=3863) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:47:14,266] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:47:14,267] {logging_mixin.py:109} INFO - [2022-01-25 01:47:14,267] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:47:14,612] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:47:14,620] {logging_mixin.py:109} INFO - [2022-01-25 01:47:14,619] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:47:14,634] {logging_mixin.py:109} INFO - [2022-01-25 01:47:14,634] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:47:14,643] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.380 seconds
+[2022-01-25 01:47:45,006] {processor.py:163} INFO - Started process (PID=3923) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:47:45,008] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:47:45,009] {logging_mixin.py:109} INFO - [2022-01-25 01:47:45,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:47:45,375] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:47:45,384] {logging_mixin.py:109} INFO - [2022-01-25 01:47:45,383] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:47:45,398] {logging_mixin.py:109} INFO - [2022-01-25 01:47:45,398] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:47:45,406] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.402 seconds
+[2022-01-25 01:48:15,738] {processor.py:163} INFO - Started process (PID=3992) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:48:15,740] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:48:15,741] {logging_mixin.py:109} INFO - [2022-01-25 01:48:15,741] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:48:16,063] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:48:16,071] {logging_mixin.py:109} INFO - [2022-01-25 01:48:16,071] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:48:16,086] {logging_mixin.py:109} INFO - [2022-01-25 01:48:16,085] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:48:16,094] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.358 seconds
+[2022-01-25 01:48:46,428] {processor.py:163} INFO - Started process (PID=4060) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:48:46,429] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:48:46,429] {logging_mixin.py:109} INFO - [2022-01-25 01:48:46,429] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:48:46,766] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:48:46,776] {logging_mixin.py:109} INFO - [2022-01-25 01:48:46,776] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:48:46,792] {logging_mixin.py:109} INFO - [2022-01-25 01:48:46,792] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:48:46,801] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.375 seconds
+[2022-01-25 01:49:17,277] {processor.py:163} INFO - Started process (PID=4124) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:49:17,279] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:49:17,279] {logging_mixin.py:109} INFO - [2022-01-25 01:49:17,279] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:49:17,597] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:49:17,605] {logging_mixin.py:109} INFO - [2022-01-25 01:49:17,605] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:49:17,619] {logging_mixin.py:109} INFO - [2022-01-25 01:49:17,618] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:49:17,627] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.353 seconds
+[2022-01-25 01:49:47,835] {processor.py:163} INFO - Started process (PID=4192) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:49:47,838] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:49:47,839] {logging_mixin.py:109} INFO - [2022-01-25 01:49:47,838] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:49:48,169] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:49:48,177] {logging_mixin.py:109} INFO - [2022-01-25 01:49:48,176] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:49:48,189] {logging_mixin.py:109} INFO - [2022-01-25 01:49:48,189] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:49:48,202] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.369 seconds
+[2022-01-25 01:50:18,695] {processor.py:163} INFO - Started process (PID=4252) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:50:18,697] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:50:18,698] {logging_mixin.py:109} INFO - [2022-01-25 01:50:18,698] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:50:19,018] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:50:19,025] {logging_mixin.py:109} INFO - [2022-01-25 01:50:19,025] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:50:19,038] {logging_mixin.py:109} INFO - [2022-01-25 01:50:19,038] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:50:19,046] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.353 seconds
+[2022-01-25 01:50:49,446] {processor.py:163} INFO - Started process (PID=4321) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:50:49,448] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:50:49,449] {logging_mixin.py:109} INFO - [2022-01-25 01:50:49,449] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:50:49,800] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:50:49,806] {logging_mixin.py:109} INFO - [2022-01-25 01:50:49,806] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:50:49,818] {logging_mixin.py:109} INFO - [2022-01-25 01:50:49,818] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:50:49,824] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.380 seconds
+[2022-01-25 01:51:20,121] {processor.py:163} INFO - Started process (PID=4389) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:51:20,122] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:51:20,123] {logging_mixin.py:109} INFO - [2022-01-25 01:51:20,123] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:51:20,464] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:51:20,472] {logging_mixin.py:109} INFO - [2022-01-25 01:51:20,472] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:51:20,485] {logging_mixin.py:109} INFO - [2022-01-25 01:51:20,485] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:51:20,495] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.375 seconds
+[2022-01-25 01:51:50,868] {processor.py:163} INFO - Started process (PID=4448) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:51:50,868] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:51:50,869] {logging_mixin.py:109} INFO - [2022-01-25 01:51:50,869] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:51:51,267] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:51:51,274] {logging_mixin.py:109} INFO - [2022-01-25 01:51:51,273] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:51:51,287] {logging_mixin.py:109} INFO - [2022-01-25 01:51:51,287] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:51:51,295] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.430 seconds
+[2022-01-25 01:52:21,521] {processor.py:163} INFO - Started process (PID=4517) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:52:21,523] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:52:21,523] {logging_mixin.py:109} INFO - [2022-01-25 01:52:21,523] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:52:21,858] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:52:21,867] {logging_mixin.py:109} INFO - [2022-01-25 01:52:21,867] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:52:21,880] {logging_mixin.py:109} INFO - [2022-01-25 01:52:21,880] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:52:21,888] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.369 seconds
+[2022-01-25 01:52:52,180] {processor.py:163} INFO - Started process (PID=4582) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:52:52,182] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:52:52,182] {logging_mixin.py:109} INFO - [2022-01-25 01:52:52,182] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:52:52,518] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:52:52,526] {logging_mixin.py:109} INFO - [2022-01-25 01:52:52,525] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:52:52,543] {logging_mixin.py:109} INFO - [2022-01-25 01:52:52,542] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:52:52,552] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.375 seconds
+[2022-01-25 01:53:22,904] {processor.py:163} INFO - Started process (PID=4644) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:53:22,906] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:53:22,907] {logging_mixin.py:109} INFO - [2022-01-25 01:53:22,907] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:53:23,246] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:53:23,254] {logging_mixin.py:109} INFO - [2022-01-25 01:53:23,254] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:53:23,267] {logging_mixin.py:109} INFO - [2022-01-25 01:53:23,267] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:53:23,276] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.374 seconds
+[2022-01-25 01:53:53,517] {processor.py:163} INFO - Started process (PID=4712) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:53:53,519] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:53:53,520] {logging_mixin.py:109} INFO - [2022-01-25 01:53:53,520] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:53:53,824] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:53:53,832] {logging_mixin.py:109} INFO - [2022-01-25 01:53:53,831] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:53:53,844] {logging_mixin.py:109} INFO - [2022-01-25 01:53:53,844] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:53:53,853] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.338 seconds
+[2022-01-25 01:54:24,153] {processor.py:163} INFO - Started process (PID=4770) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:54:24,155] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:54:24,156] {logging_mixin.py:109} INFO - [2022-01-25 01:54:24,156] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:54:24,475] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:54:24,486] {logging_mixin.py:109} INFO - [2022-01-25 01:54:24,485] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:54:24,502] {logging_mixin.py:109} INFO - [2022-01-25 01:54:24,502] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:54:24,511] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.360 seconds
+[2022-01-25 01:54:54,878] {processor.py:163} INFO - Started process (PID=4838) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:54:54,880] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:54:54,880] {logging_mixin.py:109} INFO - [2022-01-25 01:54:54,880] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:54:55,190] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:54:55,199] {logging_mixin.py:109} INFO - [2022-01-25 01:54:55,198] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:54:55,213] {logging_mixin.py:109} INFO - [2022-01-25 01:54:55,213] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:54:55,221] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.345 seconds
+[2022-01-25 01:55:25,543] {processor.py:163} INFO - Started process (PID=4906) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:55:25,545] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:55:25,546] {logging_mixin.py:109} INFO - [2022-01-25 01:55:25,546] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:55:25,860] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:55:25,868] {logging_mixin.py:109} INFO - [2022-01-25 01:55:25,867] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:55:25,880] {logging_mixin.py:109} INFO - [2022-01-25 01:55:25,880] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:55:25,888] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.347 seconds
+[2022-01-25 01:55:56,285] {processor.py:163} INFO - Started process (PID=4966) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:55:56,286] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:55:56,287] {logging_mixin.py:109} INFO - [2022-01-25 01:55:56,287] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:55:56,609] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:55:56,617] {logging_mixin.py:109} INFO - [2022-01-25 01:55:56,616] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:55:56,630] {logging_mixin.py:109} INFO - [2022-01-25 01:55:56,630] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:55:56,638] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.357 seconds
+[2022-01-25 01:56:26,793] {processor.py:163} INFO - Started process (PID=5035) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:56:26,793] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:56:26,794] {logging_mixin.py:109} INFO - [2022-01-25 01:56:26,794] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:56:27,120] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:56:27,128] {logging_mixin.py:109} INFO - [2022-01-25 01:56:27,127] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:56:27,142] {logging_mixin.py:109} INFO - [2022-01-25 01:56:27,142] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:56:27,151] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.360 seconds
+[2022-01-25 01:56:57,390] {processor.py:163} INFO - Started process (PID=5094) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:56:57,391] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:56:57,391] {logging_mixin.py:109} INFO - [2022-01-25 01:56:57,391] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:56:57,719] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:56:57,727] {logging_mixin.py:109} INFO - [2022-01-25 01:56:57,727] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:56:57,740] {logging_mixin.py:109} INFO - [2022-01-25 01:56:57,739] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:56:57,748] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.360 seconds
+[2022-01-25 01:57:28,244] {processor.py:163} INFO - Started process (PID=5162) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:57:28,246] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:57:28,246] {logging_mixin.py:109} INFO - [2022-01-25 01:57:28,246] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:57:28,579] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:57:28,585] {logging_mixin.py:109} INFO - [2022-01-25 01:57:28,585] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:57:28,597] {logging_mixin.py:109} INFO - [2022-01-25 01:57:28,597] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:57:28,605] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.363 seconds
+[2022-01-25 01:57:58,942] {processor.py:163} INFO - Started process (PID=5230) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:57:58,945] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:57:58,946] {logging_mixin.py:109} INFO - [2022-01-25 01:57:58,945] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:57:59,302] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:57:59,311] {logging_mixin.py:109} INFO - [2022-01-25 01:57:59,310] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:57:59,325] {logging_mixin.py:109} INFO - [2022-01-25 01:57:59,324] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:57:59,333] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.393 seconds
+[2022-01-25 01:58:29,729] {processor.py:163} INFO - Started process (PID=5289) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:58:29,731] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:58:29,731] {logging_mixin.py:109} INFO - [2022-01-25 01:58:29,731] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:58:30,081] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:58:30,089] {logging_mixin.py:109} INFO - [2022-01-25 01:58:30,089] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:58:30,103] {logging_mixin.py:109} INFO - [2022-01-25 01:58:30,103] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:58:30,112] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.385 seconds
+[2022-01-25 01:59:00,532] {processor.py:163} INFO - Started process (PID=5357) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:59:00,534] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:59:00,534] {logging_mixin.py:109} INFO - [2022-01-25 01:59:00,534] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:59:00,874] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:59:00,883] {logging_mixin.py:109} INFO - [2022-01-25 01:59:00,882] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:59:00,897] {logging_mixin.py:109} INFO - [2022-01-25 01:59:00,897] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:59:00,905] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.375 seconds
+[2022-01-25 01:59:31,227] {processor.py:163} INFO - Started process (PID=5427) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:59:31,229] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 01:59:31,230] {logging_mixin.py:109} INFO - [2022-01-25 01:59:31,230] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:59:31,556] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 01:59:31,563] {logging_mixin.py:109} INFO - [2022-01-25 01:59:31,562] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 01:59:31,643] {logging_mixin.py:109} INFO - [2022-01-25 01:59:31,643] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 01:59:31,651] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.427 seconds
+[2022-01-25 02:00:01,869] {processor.py:163} INFO - Started process (PID=5486) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:00:01,871] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:00:01,872] {logging_mixin.py:109} INFO - [2022-01-25 02:00:01,872] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:00:02,231] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:00:02,239] {logging_mixin.py:109} INFO - [2022-01-25 02:00:02,238] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:00:02,324] {logging_mixin.py:109} INFO - [2022-01-25 02:00:02,324] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:00:02,333] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.465 seconds
+[2022-01-25 02:00:32,621] {processor.py:163} INFO - Started process (PID=5554) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:00:32,832] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:00:32,832] {logging_mixin.py:109} INFO - [2022-01-25 02:00:32,832] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:00:33,156] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:00:33,163] {logging_mixin.py:109} INFO - [2022-01-25 02:00:33,162] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:00:33,245] {logging_mixin.py:109} INFO - [2022-01-25 02:00:33,245] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:00:33,265] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.646 seconds
+[2022-01-25 02:01:03,564] {processor.py:163} INFO - Started process (PID=5623) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:01:03,566] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:01:03,566] {logging_mixin.py:109} INFO - [2022-01-25 02:01:03,566] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:01:03,944] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:01:03,952] {logging_mixin.py:109} INFO - [2022-01-25 02:01:03,951] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:01:03,965] {logging_mixin.py:109} INFO - [2022-01-25 02:01:03,965] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:01:03,973] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.412 seconds
+[2022-01-25 02:01:34,235] {processor.py:163} INFO - Started process (PID=5683) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:01:34,237] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:01:34,238] {logging_mixin.py:109} INFO - [2022-01-25 02:01:34,238] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:01:34,575] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:01:34,582] {logging_mixin.py:109} INFO - [2022-01-25 02:01:34,582] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:01:34,594] {logging_mixin.py:109} INFO - [2022-01-25 02:01:34,594] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:01:34,602] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.369 seconds
+[2022-01-25 02:02:04,949] {processor.py:163} INFO - Started process (PID=5751) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:02:04,951] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:02:04,952] {logging_mixin.py:109} INFO - [2022-01-25 02:02:04,952] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:02:05,274] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:02:05,281] {logging_mixin.py:109} INFO - [2022-01-25 02:02:05,281] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:02:05,293] {logging_mixin.py:109} INFO - [2022-01-25 02:02:05,293] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:02:05,302] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.354 seconds
+[2022-01-25 02:02:35,520] {processor.py:163} INFO - Started process (PID=5811) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:02:35,522] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:02:35,523] {logging_mixin.py:109} INFO - [2022-01-25 02:02:35,523] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:02:35,871] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:02:35,878] {logging_mixin.py:109} INFO - [2022-01-25 02:02:35,878] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:02:35,892] {logging_mixin.py:109} INFO - [2022-01-25 02:02:35,892] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:02:35,901] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.384 seconds
+[2022-01-25 02:03:06,371] {processor.py:163} INFO - Started process (PID=5879) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:03:06,373] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:03:06,374] {logging_mixin.py:109} INFO - [2022-01-25 02:03:06,374] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:03:06,700] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:03:06,707] {logging_mixin.py:109} INFO - [2022-01-25 02:03:06,707] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:03:06,718] {logging_mixin.py:109} INFO - [2022-01-25 02:03:06,718] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:03:06,726] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.357 seconds
+[2022-01-25 02:03:36,932] {processor.py:163} INFO - Started process (PID=5949) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:03:36,934] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:03:36,934] {logging_mixin.py:109} INFO - [2022-01-25 02:03:36,934] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:03:37,265] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:03:37,273] {logging_mixin.py:109} INFO - [2022-01-25 02:03:37,272] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:03:37,285] {logging_mixin.py:109} INFO - [2022-01-25 02:03:37,284] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:03:37,291] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.361 seconds
+[2022-01-25 02:04:07,587] {processor.py:163} INFO - Started process (PID=6009) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:04:07,589] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:04:07,589] {logging_mixin.py:109} INFO - [2022-01-25 02:04:07,589] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:04:07,907] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:04:07,915] {logging_mixin.py:109} INFO - [2022-01-25 02:04:07,914] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:04:07,928] {logging_mixin.py:109} INFO - [2022-01-25 02:04:07,928] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:04:07,936] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.351 seconds
+[2022-01-25 02:04:38,412] {processor.py:163} INFO - Started process (PID=6078) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:04:38,414] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:04:38,415] {logging_mixin.py:109} INFO - [2022-01-25 02:04:38,415] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:04:38,762] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:04:38,770] {logging_mixin.py:109} INFO - [2022-01-25 02:04:38,769] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:04:38,783] {logging_mixin.py:109} INFO - [2022-01-25 02:04:38,783] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:04:38,791] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.381 seconds
+[2022-01-25 02:05:09,155] {processor.py:163} INFO - Started process (PID=6147) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:05:09,157] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:05:09,158] {logging_mixin.py:109} INFO - [2022-01-25 02:05:09,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:05:09,558] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:05:09,565] {logging_mixin.py:109} INFO - [2022-01-25 02:05:09,565] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:05:09,577] {logging_mixin.py:109} INFO - [2022-01-25 02:05:09,577] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:05:09,584] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.434 seconds
+[2022-01-25 02:05:39,930] {processor.py:163} INFO - Started process (PID=6206) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:05:39,932] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:05:39,933] {logging_mixin.py:109} INFO - [2022-01-25 02:05:39,933] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:05:40,244] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:05:40,251] {logging_mixin.py:109} INFO - [2022-01-25 02:05:40,250] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:05:40,264] {logging_mixin.py:109} INFO - [2022-01-25 02:05:40,264] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:05:40,272] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.344 seconds
+[2022-01-25 02:06:10,639] {processor.py:163} INFO - Started process (PID=6274) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:06:10,641] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:06:10,642] {logging_mixin.py:109} INFO - [2022-01-25 02:06:10,642] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:06:10,954] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:06:10,961] {logging_mixin.py:109} INFO - [2022-01-25 02:06:10,961] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:06:10,974] {logging_mixin.py:109} INFO - [2022-01-25 02:06:10,974] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:06:10,982] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.347 seconds
+[2022-01-25 02:06:41,324] {processor.py:163} INFO - Started process (PID=6342) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:06:41,326] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:06:41,326] {logging_mixin.py:109} INFO - [2022-01-25 02:06:41,326] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:06:41,643] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:06:41,653] {logging_mixin.py:109} INFO - [2022-01-25 02:06:41,652] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:06:41,669] {logging_mixin.py:109} INFO - [2022-01-25 02:06:41,669] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:06:41,678] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.356 seconds
+[2022-01-25 02:07:12,052] {processor.py:163} INFO - Started process (PID=6402) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:07:12,054] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:07:12,055] {logging_mixin.py:109} INFO - [2022-01-25 02:07:12,055] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:07:12,402] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:07:12,410] {logging_mixin.py:109} INFO - [2022-01-25 02:07:12,410] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:07:12,422] {logging_mixin.py:109} INFO - [2022-01-25 02:07:12,422] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:07:12,428] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.379 seconds
+[2022-01-25 02:07:42,765] {processor.py:163} INFO - Started process (PID=6471) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:07:42,767] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:07:42,768] {logging_mixin.py:109} INFO - [2022-01-25 02:07:42,768] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:07:43,080] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:07:43,088] {logging_mixin.py:109} INFO - [2022-01-25 02:07:43,087] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:07:43,100] {logging_mixin.py:109} INFO - [2022-01-25 02:07:43,100] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:07:43,108] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.347 seconds
+[2022-01-25 02:08:13,480] {processor.py:163} INFO - Started process (PID=6532) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:08:13,482] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:08:13,483] {logging_mixin.py:109} INFO - [2022-01-25 02:08:13,483] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:08:13,798] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:08:13,806] {logging_mixin.py:109} INFO - [2022-01-25 02:08:13,805] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:08:13,819] {logging_mixin.py:109} INFO - [2022-01-25 02:08:13,819] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:08:13,828] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.350 seconds
+[2022-01-25 02:08:44,247] {processor.py:163} INFO - Started process (PID=6603) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:08:44,250] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:08:44,251] {logging_mixin.py:109} INFO - [2022-01-25 02:08:44,251] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:08:44,573] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:08:44,581] {logging_mixin.py:109} INFO - [2022-01-25 02:08:44,581] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:08:44,597] {logging_mixin.py:109} INFO - [2022-01-25 02:08:44,597] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:08:44,607] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.362 seconds
+[2022-01-25 02:09:14,947] {processor.py:163} INFO - Started process (PID=6672) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:09:14,948] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:09:14,948] {logging_mixin.py:109} INFO - [2022-01-25 02:09:14,948] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:09:15,274] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:09:15,283] {logging_mixin.py:109} INFO - [2022-01-25 02:09:15,282] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:09:15,296] {logging_mixin.py:109} INFO - [2022-01-25 02:09:15,296] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:09:15,304] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.359 seconds
+[2022-01-25 02:09:45,595] {processor.py:163} INFO - Started process (PID=6732) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:09:45,597] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:09:45,598] {logging_mixin.py:109} INFO - [2022-01-25 02:09:45,598] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:09:45,928] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:09:45,935] {logging_mixin.py:109} INFO - [2022-01-25 02:09:45,934] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:09:45,946] {logging_mixin.py:109} INFO - [2022-01-25 02:09:45,946] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:09:45,954] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.361 seconds
+[2022-01-25 02:10:16,323] {processor.py:163} INFO - Started process (PID=6800) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:10:16,325] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:10:16,325] {logging_mixin.py:109} INFO - [2022-01-25 02:10:16,325] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:10:16,664] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:10:16,672] {logging_mixin.py:109} INFO - [2022-01-25 02:10:16,672] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:10:16,687] {logging_mixin.py:109} INFO - [2022-01-25 02:10:16,687] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:10:16,698] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.377 seconds
+[2022-01-25 02:10:47,059] {processor.py:163} INFO - Started process (PID=6868) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:10:47,060] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:10:47,060] {logging_mixin.py:109} INFO - [2022-01-25 02:10:47,060] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:10:47,387] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:10:47,395] {logging_mixin.py:109} INFO - [2022-01-25 02:10:47,395] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:10:47,411] {logging_mixin.py:109} INFO - [2022-01-25 02:10:47,411] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:10:47,419] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.362 seconds
+[2022-01-25 02:11:17,829] {processor.py:163} INFO - Started process (PID=6927) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:11:17,831] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:11:17,832] {logging_mixin.py:109} INFO - [2022-01-25 02:11:17,832] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:11:18,152] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:11:18,160] {logging_mixin.py:109} INFO - [2022-01-25 02:11:18,159] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:11:18,173] {logging_mixin.py:109} INFO - [2022-01-25 02:11:18,172] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:11:18,180] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.353 seconds
+[2022-01-25 02:11:48,421] {processor.py:163} INFO - Started process (PID=6995) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:11:48,423] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:11:48,424] {logging_mixin.py:109} INFO - [2022-01-25 02:11:48,424] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:11:48,754] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:11:48,761] {logging_mixin.py:109} INFO - [2022-01-25 02:11:48,760] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:11:48,772] {logging_mixin.py:109} INFO - [2022-01-25 02:11:48,772] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:11:48,780] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.361 seconds
+[2022-01-25 02:12:19,219] {processor.py:163} INFO - Started process (PID=7056) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:12:19,221] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:12:19,221] {logging_mixin.py:109} INFO - [2022-01-25 02:12:19,221] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:12:19,522] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:12:19,530] {logging_mixin.py:109} INFO - [2022-01-25 02:12:19,529] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:12:19,542] {logging_mixin.py:109} INFO - [2022-01-25 02:12:19,542] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:12:19,550] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.333 seconds
+[2022-01-25 02:12:50,020] {processor.py:163} INFO - Started process (PID=7123) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:12:50,023] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:12:50,024] {logging_mixin.py:109} INFO - [2022-01-25 02:12:50,024] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:12:50,344] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:12:50,352] {logging_mixin.py:109} INFO - [2022-01-25 02:12:50,351] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:12:50,366] {logging_mixin.py:109} INFO - [2022-01-25 02:12:50,366] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:12:50,375] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.357 seconds
+[2022-01-25 02:13:20,724] {processor.py:163} INFO - Started process (PID=7192) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:13:20,726] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:13:20,726] {logging_mixin.py:109} INFO - [2022-01-25 02:13:20,726] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:13:21,044] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:13:21,053] {logging_mixin.py:109} INFO - [2022-01-25 02:13:21,052] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:13:21,066] {logging_mixin.py:109} INFO - [2022-01-25 02:13:21,066] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:13:21,074] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.352 seconds
+[2022-01-25 02:13:51,389] {processor.py:163} INFO - Started process (PID=7250) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:13:51,391] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:13:51,391] {logging_mixin.py:109} INFO - [2022-01-25 02:13:51,391] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:13:51,706] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:13:51,714] {logging_mixin.py:109} INFO - [2022-01-25 02:13:51,714] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:13:51,729] {logging_mixin.py:109} INFO - [2022-01-25 02:13:51,729] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:13:51,737] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.350 seconds
+[2022-01-25 02:14:22,208] {processor.py:163} INFO - Started process (PID=7318) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:14:22,211] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:14:22,212] {logging_mixin.py:109} INFO - [2022-01-25 02:14:22,212] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:14:22,531] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:14:22,538] {logging_mixin.py:109} INFO - [2022-01-25 02:14:22,537] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:14:22,619] {logging_mixin.py:109} INFO - [2022-01-25 02:14:22,619] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:14:22,627] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.421 seconds
+[2022-01-25 02:14:52,819] {processor.py:163} INFO - Started process (PID=7386) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:14:52,821] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:14:52,821] {logging_mixin.py:109} INFO - [2022-01-25 02:14:52,821] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:14:53,178] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:14:53,187] {logging_mixin.py:109} INFO - [2022-01-25 02:14:53,186] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:14:53,273] {logging_mixin.py:109} INFO - [2022-01-25 02:14:53,273] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:14:53,283] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.466 seconds
+[2022-01-25 02:15:23,706] {processor.py:163} INFO - Started process (PID=7445) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:15:23,709] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:15:23,709] {logging_mixin.py:109} INFO - [2022-01-25 02:15:23,709] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:15:24,035] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:15:24,044] {logging_mixin.py:109} INFO - [2022-01-25 02:15:24,043] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:15:24,132] {logging_mixin.py:109} INFO - [2022-01-25 02:15:24,132] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:15:24,141] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.439 seconds
+[2022-01-25 02:15:54,629] {processor.py:163} INFO - Started process (PID=7515) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:15:54,631] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:15:54,632] {logging_mixin.py:109} INFO - [2022-01-25 02:15:54,632] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:15:54,956] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:15:54,964] {logging_mixin.py:109} INFO - [2022-01-25 02:15:54,963] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:15:55,047] {logging_mixin.py:109} INFO - [2022-01-25 02:15:55,047] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:15:55,054] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.427 seconds
+[2022-01-25 02:16:25,523] {processor.py:163} INFO - Started process (PID=7584) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:16:25,525] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:16:25,526] {logging_mixin.py:109} INFO - [2022-01-25 02:16:25,526] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:16:25,885] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:16:25,895] {logging_mixin.py:109} INFO - [2022-01-25 02:16:25,894] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:16:25,994] {logging_mixin.py:109} INFO - [2022-01-25 02:16:25,994] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:16:26,001] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.480 seconds
+[2022-01-25 02:16:56,283] {processor.py:163} INFO - Started process (PID=7644) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:16:56,285] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:16:56,286] {logging_mixin.py:109} INFO - [2022-01-25 02:16:56,286] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:16:56,692] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:16:56,699] {logging_mixin.py:109} INFO - [2022-01-25 02:16:56,699] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:16:56,710] {logging_mixin.py:109} INFO - [2022-01-25 02:16:56,710] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:16:56,718] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.438 seconds
+[2022-01-25 02:17:27,083] {processor.py:163} INFO - Started process (PID=7715) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:17:27,085] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:17:27,086] {logging_mixin.py:109} INFO - [2022-01-25 02:17:27,086] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:17:27,496] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:17:27,503] {logging_mixin.py:109} INFO - [2022-01-25 02:17:27,502] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:17:27,515] {logging_mixin.py:109} INFO - [2022-01-25 02:17:27,515] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:17:27,521] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.440 seconds
+[2022-01-25 02:17:57,735] {processor.py:163} INFO - Started process (PID=7774) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:17:57,737] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:17:57,737] {logging_mixin.py:109} INFO - [2022-01-25 02:17:57,737] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:17:58,027] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:17:58,034] {logging_mixin.py:109} INFO - [2022-01-25 02:17:58,034] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:17:58,047] {logging_mixin.py:109} INFO - [2022-01-25 02:17:58,047] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:17:58,054] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.323 seconds
+[2022-01-25 02:49:15,900] {processor.py:163} INFO - Started process (PID=29) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:49:15,901] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:49:15,902] {logging_mixin.py:109} INFO - [2022-01-25 02:49:15,902] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:49:16,550] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:49:16,561] {logging_mixin.py:109} INFO - [2022-01-25 02:49:16,561] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:49:16,583] {logging_mixin.py:109} INFO - [2022-01-25 02:49:16,583] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:49:16,593] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.697 seconds
+[2022-01-25 02:49:46,787] {processor.py:163} INFO - Started process (PID=97) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:49:46,789] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:49:46,789] {logging_mixin.py:109} INFO - [2022-01-25 02:49:46,789] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:49:47,199] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:49:47,207] {logging_mixin.py:109} INFO - [2022-01-25 02:49:47,207] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:49:47,222] {logging_mixin.py:109} INFO - [2022-01-25 02:49:47,222] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:49:47,231] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.446 seconds
+[2022-01-25 02:50:17,457] {processor.py:163} INFO - Started process (PID=156) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:50:17,459] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:50:17,460] {logging_mixin.py:109} INFO - [2022-01-25 02:50:17,460] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:50:17,876] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:50:17,883] {logging_mixin.py:109} INFO - [2022-01-25 02:50:17,883] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:50:17,896] {logging_mixin.py:109} INFO - [2022-01-25 02:50:17,896] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:50:17,905] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.451 seconds
+[2022-01-25 02:50:48,628] {processor.py:163} INFO - Started process (PID=226) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:50:48,630] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:50:48,630] {logging_mixin.py:109} INFO - [2022-01-25 02:50:48,630] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:50:49,047] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:50:49,056] {logging_mixin.py:109} INFO - [2022-01-25 02:50:49,055] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:50:49,068] {logging_mixin.py:109} INFO - [2022-01-25 02:50:49,068] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:50:49,078] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.452 seconds
+[2022-01-25 02:51:19,958] {processor.py:163} INFO - Started process (PID=298) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:51:19,959] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:51:19,960] {logging_mixin.py:109} INFO - [2022-01-25 02:51:19,960] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:51:20,509] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:51:20,518] {logging_mixin.py:109} INFO - [2022-01-25 02:51:20,518] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:51:20,532] {logging_mixin.py:109} INFO - [2022-01-25 02:51:20,532] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:51:20,542] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.587 seconds
+[2022-01-25 02:51:51,145] {processor.py:163} INFO - Started process (PID=358) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:51:51,146] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:51:51,146] {logging_mixin.py:109} INFO - [2022-01-25 02:51:51,146] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:51:51,569] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:51:51,577] {logging_mixin.py:109} INFO - [2022-01-25 02:51:51,577] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:51:51,590] {logging_mixin.py:109} INFO - [2022-01-25 02:51:51,590] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:51:51,599] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.457 seconds
+[2022-01-25 02:52:22,054] {processor.py:163} INFO - Started process (PID=429) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:52:22,056] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:52:22,057] {logging_mixin.py:109} INFO - [2022-01-25 02:52:22,057] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:52:22,468] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:52:22,476] {logging_mixin.py:109} INFO - [2022-01-25 02:52:22,476] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:52:22,490] {logging_mixin.py:109} INFO - [2022-01-25 02:52:22,490] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:52:22,498] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.446 seconds
+[2022-01-25 02:52:52,991] {processor.py:163} INFO - Started process (PID=489) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:52:52,994] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:52:52,995] {logging_mixin.py:109} INFO - [2022-01-25 02:52:52,995] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:52:53,400] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:52:53,407] {logging_mixin.py:109} INFO - [2022-01-25 02:52:53,406] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:52:53,418] {logging_mixin.py:109} INFO - [2022-01-25 02:52:53,418] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:52:53,426] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.437 seconds
+[2022-01-25 02:53:23,506] {processor.py:163} INFO - Started process (PID=557) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:53:23,507] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:53:23,508] {logging_mixin.py:109} INFO - [2022-01-25 02:53:23,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:53:23,931] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:53:23,939] {logging_mixin.py:109} INFO - [2022-01-25 02:53:23,939] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:53:23,952] {logging_mixin.py:109} INFO - [2022-01-25 02:53:23,952] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:53:23,962] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.458 seconds
+[2022-01-25 02:53:54,581] {processor.py:163} INFO - Started process (PID=626) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:53:54,583] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:53:54,584] {logging_mixin.py:109} INFO - [2022-01-25 02:53:54,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:53:55,087] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:53:55,096] {logging_mixin.py:109} INFO - [2022-01-25 02:53:55,095] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:53:55,111] {logging_mixin.py:109} INFO - [2022-01-25 02:53:55,111] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:53:55,120] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.541 seconds
+[2022-01-25 02:54:25,708] {processor.py:163} INFO - Started process (PID=686) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:54:25,710] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:54:25,710] {logging_mixin.py:109} INFO - [2022-01-25 02:54:25,710] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:54:26,123] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:54:26,130] {logging_mixin.py:109} INFO - [2022-01-25 02:54:26,130] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:54:26,143] {logging_mixin.py:109} INFO - [2022-01-25 02:54:26,143] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:54:26,151] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.447 seconds
+[2022-01-25 02:54:56,519] {processor.py:163} INFO - Started process (PID=755) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:54:56,520] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:54:56,520] {logging_mixin.py:109} INFO - [2022-01-25 02:54:56,520] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:54:56,925] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:54:56,932] {logging_mixin.py:109} INFO - [2022-01-25 02:54:56,932] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:54:56,945] {logging_mixin.py:109} INFO - [2022-01-25 02:54:56,945] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:54:56,954] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.438 seconds
+[2022-01-25 02:55:27,522] {processor.py:163} INFO - Started process (PID=815) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:55:27,525] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:55:27,525] {logging_mixin.py:109} INFO - [2022-01-25 02:55:27,525] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:55:27,952] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:55:27,959] {logging_mixin.py:109} INFO - [2022-01-25 02:55:27,959] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:55:27,973] {logging_mixin.py:109} INFO - [2022-01-25 02:55:27,973] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:55:27,980] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.460 seconds
+[2022-01-25 02:55:58,614] {processor.py:163} INFO - Started process (PID=884) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:55:58,616] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:55:58,617] {logging_mixin.py:109} INFO - [2022-01-25 02:55:58,617] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:55:59,071] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:55:59,080] {logging_mixin.py:109} INFO - [2022-01-25 02:55:59,079] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:55:59,094] {logging_mixin.py:109} INFO - [2022-01-25 02:55:59,094] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:55:59,104] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.491 seconds
+[2022-01-25 02:56:29,636] {processor.py:163} INFO - Started process (PID=944) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:56:29,640] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:56:29,641] {logging_mixin.py:109} INFO - [2022-01-25 02:56:29,641] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:56:30,152] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:56:30,160] {logging_mixin.py:109} INFO - [2022-01-25 02:56:30,160] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:56:30,175] {logging_mixin.py:109} INFO - [2022-01-25 02:56:30,175] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:56:30,185] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.554 seconds
+[2022-01-25 02:57:00,237] {processor.py:163} INFO - Started process (PID=1014) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:57:00,238] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:57:00,238] {logging_mixin.py:109} INFO - [2022-01-25 02:57:00,238] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:57:00,767] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:57:00,778] {logging_mixin.py:109} INFO - [2022-01-25 02:57:00,777] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:57:00,795] {logging_mixin.py:109} INFO - [2022-01-25 02:57:00,795] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:57:00,806] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.571 seconds
+[2022-01-25 02:57:31,380] {processor.py:163} INFO - Started process (PID=1081) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:57:31,382] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:57:31,383] {logging_mixin.py:109} INFO - [2022-01-25 02:57:31,383] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:57:31,927] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:57:31,939] {logging_mixin.py:109} INFO - [2022-01-25 02:57:31,939] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:57:31,956] {logging_mixin.py:109} INFO - [2022-01-25 02:57:31,956] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:57:31,964] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.586 seconds
+[2022-01-25 02:58:02,455] {processor.py:163} INFO - Started process (PID=1140) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:58:02,455] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:58:02,456] {logging_mixin.py:109} INFO - [2022-01-25 02:58:02,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:58:02,884] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:58:02,895] {logging_mixin.py:109} INFO - [2022-01-25 02:58:02,895] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:58:02,910] {logging_mixin.py:109} INFO - [2022-01-25 02:58:02,910] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:58:02,919] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.467 seconds
+[2022-01-25 02:58:33,711] {processor.py:163} INFO - Started process (PID=1209) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:58:33,713] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:58:33,714] {logging_mixin.py:109} INFO - [2022-01-25 02:58:33,714] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:58:34,172] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:58:34,179] {logging_mixin.py:109} INFO - [2022-01-25 02:58:34,179] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:58:34,196] {logging_mixin.py:109} INFO - [2022-01-25 02:58:34,196] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:58:34,205] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.496 seconds
+[2022-01-25 02:59:05,052] {processor.py:163} INFO - Started process (PID=1269) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:59:05,055] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:59:05,055] {logging_mixin.py:109} INFO - [2022-01-25 02:59:05,055] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:59:05,520] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:59:05,527] {logging_mixin.py:109} INFO - [2022-01-25 02:59:05,527] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:59:05,540] {logging_mixin.py:109} INFO - [2022-01-25 02:59:05,540] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:59:05,548] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.499 seconds
+[2022-01-25 02:59:36,317] {processor.py:163} INFO - Started process (PID=1338) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:59:36,320] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 02:59:36,320] {logging_mixin.py:109} INFO - [2022-01-25 02:59:36,320] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:59:36,822] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 02:59:36,830] {logging_mixin.py:109} INFO - [2022-01-25 02:59:36,830] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 02:59:36,844] {logging_mixin.py:109} INFO - [2022-01-25 02:59:36,844] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 02:59:36,852] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.537 seconds
+[2022-01-25 03:00:07,105] {processor.py:163} INFO - Started process (PID=1398) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:00:07,107] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:00:07,108] {logging_mixin.py:109} INFO - [2022-01-25 03:00:07,108] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:00:07,550] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:00:07,559] {logging_mixin.py:109} INFO - [2022-01-25 03:00:07,559] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:00:07,573] {logging_mixin.py:109} INFO - [2022-01-25 03:00:07,573] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:00:07,581] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.479 seconds
+[2022-01-25 03:00:37,604] {processor.py:163} INFO - Started process (PID=1467) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:00:37,605] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:00:37,606] {logging_mixin.py:109} INFO - [2022-01-25 03:00:37,606] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:00:38,088] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:00:38,095] {logging_mixin.py:109} INFO - [2022-01-25 03:00:38,095] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:00:38,111] {logging_mixin.py:109} INFO - [2022-01-25 03:00:38,111] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:00:38,120] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.520 seconds
+[2022-01-25 03:01:08,692] {processor.py:163} INFO - Started process (PID=1535) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:01:08,693] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:01:08,693] {logging_mixin.py:109} INFO - [2022-01-25 03:01:08,693] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:01:09,155] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:01:09,171] {logging_mixin.py:109} INFO - [2022-01-25 03:01:09,170] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:01:09,191] {logging_mixin.py:109} INFO - [2022-01-25 03:01:09,191] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:01:09,200] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.511 seconds
+[2022-01-25 03:01:39,995] {processor.py:163} INFO - Started process (PID=1594) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:01:39,997] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:01:39,998] {logging_mixin.py:109} INFO - [2022-01-25 03:01:39,998] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:01:40,459] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:01:40,467] {logging_mixin.py:109} INFO - [2022-01-25 03:01:40,467] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:01:40,481] {logging_mixin.py:109} INFO - [2022-01-25 03:01:40,481] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:01:40,490] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.497 seconds
+[2022-01-25 03:02:11,218] {processor.py:163} INFO - Started process (PID=1662) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:02:11,220] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:02:11,220] {logging_mixin.py:109} INFO - [2022-01-25 03:02:11,220] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:02:11,616] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:02:11,623] {logging_mixin.py:109} INFO - [2022-01-25 03:02:11,623] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:02:11,637] {logging_mixin.py:109} INFO - [2022-01-25 03:02:11,636] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:02:11,646] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.431 seconds
+[2022-01-25 03:02:42,293] {processor.py:163} INFO - Started process (PID=1721) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:02:42,295] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:02:42,295] {logging_mixin.py:109} INFO - [2022-01-25 03:02:42,295] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:02:42,757] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:02:42,767] {logging_mixin.py:109} INFO - [2022-01-25 03:02:42,767] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:02:42,785] {logging_mixin.py:109} INFO - [2022-01-25 03:02:42,785] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:02:42,796] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.505 seconds
+[2022-01-25 03:03:13,077] {processor.py:163} INFO - Started process (PID=1791) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:03:13,078] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:03:13,078] {logging_mixin.py:109} INFO - [2022-01-25 03:03:13,078] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:03:13,716] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:03:13,732] {logging_mixin.py:109} INFO - [2022-01-25 03:03:13,731] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:03:13,765] {logging_mixin.py:109} INFO - [2022-01-25 03:03:13,765] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:03:13,783] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.709 seconds
+[2022-01-25 03:03:44,707] {processor.py:163} INFO - Started process (PID=1856) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:03:44,709] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:03:44,710] {logging_mixin.py:109} INFO - [2022-01-25 03:03:44,710] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:03:45,168] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:03:45,176] {logging_mixin.py:109} INFO - [2022-01-25 03:03:45,175] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:03:45,190] {logging_mixin.py:109} INFO - [2022-01-25 03:03:45,190] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:03:45,200] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.495 seconds
+[2022-01-25 03:04:15,772] {processor.py:163} INFO - Started process (PID=1925) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:04:15,774] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:04:15,774] {logging_mixin.py:109} INFO - [2022-01-25 03:04:15,774] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:04:16,162] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:04:16,171] {logging_mixin.py:109} INFO - [2022-01-25 03:04:16,170] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:04:16,187] {logging_mixin.py:109} INFO - [2022-01-25 03:04:16,187] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:04:16,199] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.430 seconds
+[2022-01-25 03:04:46,967] {processor.py:163} INFO - Started process (PID=1987) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:04:46,969] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:04:46,970] {logging_mixin.py:109} INFO - [2022-01-25 03:04:46,969] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:04:47,458] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:04:47,467] {logging_mixin.py:109} INFO - [2022-01-25 03:04:47,467] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:04:47,482] {logging_mixin.py:109} INFO - [2022-01-25 03:04:47,482] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:04:47,491] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.527 seconds
+[2022-01-25 03:05:18,206] {processor.py:163} INFO - Started process (PID=2056) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:05:18,208] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:05:18,209] {logging_mixin.py:109} INFO - [2022-01-25 03:05:18,209] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:05:18,623] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:05:18,630] {logging_mixin.py:109} INFO - [2022-01-25 03:05:18,630] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:05:18,643] {logging_mixin.py:109} INFO - [2022-01-25 03:05:18,643] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:05:18,652] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.449 seconds
+[2022-01-25 03:05:48,947] {processor.py:163} INFO - Started process (PID=2126) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:05:48,947] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:05:48,948] {logging_mixin.py:109} INFO - [2022-01-25 03:05:48,948] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:05:49,559] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:05:49,573] {logging_mixin.py:109} INFO - [2022-01-25 03:05:49,573] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:05:49,597] {logging_mixin.py:109} INFO - [2022-01-25 03:05:49,597] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:05:49,612] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.668 seconds
+[2022-01-25 03:06:19,880] {processor.py:163} INFO - Started process (PID=2190) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:06:19,881] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:06:19,882] {logging_mixin.py:109} INFO - [2022-01-25 03:06:19,881] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:06:20,279] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:06:20,285] {logging_mixin.py:109} INFO - [2022-01-25 03:06:20,284] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:06:20,295] {logging_mixin.py:109} INFO - [2022-01-25 03:06:20,295] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:06:20,304] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.426 seconds
+[2022-01-25 03:06:51,191] {processor.py:163} INFO - Started process (PID=2260) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:06:51,193] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:06:51,194] {logging_mixin.py:109} INFO - [2022-01-25 03:06:51,193] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:06:51,693] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:06:51,708] {logging_mixin.py:109} INFO - [2022-01-25 03:06:51,707] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:06:51,742] {logging_mixin.py:109} INFO - [2022-01-25 03:06:51,741] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:06:51,785] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.597 seconds
+[2022-01-25 03:07:22,214] {processor.py:163} INFO - Started process (PID=2319) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:07:22,216] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:07:22,217] {logging_mixin.py:109} INFO - [2022-01-25 03:07:22,217] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:07:22,728] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:07:22,742] {logging_mixin.py:109} INFO - [2022-01-25 03:07:22,741] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:07:22,761] {logging_mixin.py:109} INFO - [2022-01-25 03:07:22,760] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:07:22,773] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.564 seconds
+[2022-01-25 03:07:52,916] {processor.py:163} INFO - Started process (PID=2388) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:07:52,918] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:07:52,919] {logging_mixin.py:109} INFO - [2022-01-25 03:07:52,919] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:07:53,575] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:07:53,590] {logging_mixin.py:109} INFO - [2022-01-25 03:07:53,590] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:07:53,609] {logging_mixin.py:109} INFO - [2022-01-25 03:07:53,609] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:07:53,618] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.706 seconds
+[2022-01-25 03:08:23,727] {processor.py:163} INFO - Started process (PID=2448) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:08:23,728] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:08:23,728] {logging_mixin.py:109} INFO - [2022-01-25 03:08:23,728] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:08:24,138] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:08:24,145] {logging_mixin.py:109} INFO - [2022-01-25 03:08:24,144] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:08:24,156] {logging_mixin.py:109} INFO - [2022-01-25 03:08:24,156] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:08:24,163] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.439 seconds
+[2022-01-25 03:08:54,288] {processor.py:163} INFO - Started process (PID=2518) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:08:54,289] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:08:54,290] {logging_mixin.py:109} INFO - [2022-01-25 03:08:54,289] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:08:54,727] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:08:54,735] {logging_mixin.py:109} INFO - [2022-01-25 03:08:54,735] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:08:54,749] {logging_mixin.py:109} INFO - [2022-01-25 03:08:54,749] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:08:54,761] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.476 seconds
+[2022-01-25 03:09:25,087] {processor.py:163} INFO - Started process (PID=2577) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:09:25,088] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:09:25,088] {logging_mixin.py:109} INFO - [2022-01-25 03:09:25,088] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:09:25,484] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:09:25,492] {logging_mixin.py:109} INFO - [2022-01-25 03:09:25,491] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:09:25,504] {logging_mixin.py:109} INFO - [2022-01-25 03:09:25,504] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:09:25,513] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.430 seconds
+[2022-01-25 03:09:55,595] {processor.py:163} INFO - Started process (PID=2645) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:09:55,597] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:09:55,598] {logging_mixin.py:109} INFO - [2022-01-25 03:09:55,598] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:09:56,036] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:09:56,044] {logging_mixin.py:109} INFO - [2022-01-25 03:09:56,044] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:09:56,058] {logging_mixin.py:109} INFO - [2022-01-25 03:09:56,058] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:09:56,068] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.475 seconds
+[2022-01-25 03:10:26,112] {processor.py:163} INFO - Started process (PID=2706) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:10:26,113] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:10:26,113] {logging_mixin.py:109} INFO - [2022-01-25 03:10:26,113] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:10:26,633] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:10:26,641] {logging_mixin.py:109} INFO - [2022-01-25 03:10:26,641] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:10:26,655] {logging_mixin.py:109} INFO - [2022-01-25 03:10:26,655] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:10:26,664] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.555 seconds
+[2022-01-25 03:10:57,088] {processor.py:163} INFO - Started process (PID=2773) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:10:57,089] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:10:57,089] {logging_mixin.py:109} INFO - [2022-01-25 03:10:57,089] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:10:57,494] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:10:57,502] {logging_mixin.py:109} INFO - [2022-01-25 03:10:57,501] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:10:57,515] {logging_mixin.py:109} INFO - [2022-01-25 03:10:57,515] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:10:57,523] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.438 seconds
+[2022-01-25 03:11:27,906] {processor.py:163} INFO - Started process (PID=2832) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:11:27,907] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:11:27,907] {logging_mixin.py:109} INFO - [2022-01-25 03:11:27,907] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:11:28,479] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:11:28,491] {logging_mixin.py:109} INFO - [2022-01-25 03:11:28,490] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:11:28,516] {logging_mixin.py:109} INFO - [2022-01-25 03:11:28,516] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:11:28,530] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.627 seconds
+[2022-01-25 03:11:58,591] {processor.py:163} INFO - Started process (PID=2901) to work on /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:11:58,591] {processor.py:642} INFO - Processing file /opt/airflow/dags/datawarehouse_airflow.py for tasks to queue
+[2022-01-25 03:11:58,592] {logging_mixin.py:109} INFO - [2022-01-25 03:11:58,592] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:11:58,962] {processor.py:654} INFO - DAG(s) dict_keys(['datawarehouse_etl']) retrieved from /opt/airflow/dags/datawarehouse_airflow.py
+[2022-01-25 03:11:58,968] {logging_mixin.py:109} INFO - [2022-01-25 03:11:58,968] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 03:11:58,979] {logging_mixin.py:109} INFO - [2022-01-25 03:11:58,979] {dag.py:2935} INFO - Setting next_dagrun for datawarehouse_etl to None
+[2022-01-25 03:11:58,986] {processor.py:171} INFO - Processing /opt/airflow/dags/datawarehouse_airflow.py took 0.397 seconds
