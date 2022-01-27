@@ -27,12 +27,10 @@ Redshift staging table name format: `invoice_staging_<YEAR>_<MONTH>_<DAY>`
 After that, `load_invoice_fact` transforms staging table and loads facts with surrogate keys into the `invoice_fact` table. Once facts are loaded, staging table is dropped. 
 
 - Image of the architecture. 
-
-  ![](/home/dell/Downloads/Architecture.jpg)
+![Architecture](https://user-images.githubusercontent.com/16570874/151455825-b0dc39dd-10c3-4c60-aebb-1a0d54b79b5e.jpg)
 
 - Image of ER Diagram
-  
-  ![](/home/dell/Downloads/sql-er.png)
+![sql-er](https://user-images.githubusercontent.com/16570874/151455877-199b8c99-c4bb-4152-992f-0d33dd87c71a.png)
   
   - product,customer,store,purchase_datetime are the dimensions
   - sales_fact is fact table where sales_price and quantity  are facts aggregated for one day
@@ -41,20 +39,18 @@ After that, `load_invoice_fact` transforms staging table and loads facts with su
 
 Airflow is used to transform the data and load it into redshift. First invoice_stagging data is loaded and then aggregated data is kept into invoice_fact table and the staging table is deleted, which is shown in below figure.
 
-- Image of DAG
+- Image of DAG!
+ ![Screenshot from 2022-01-24 13-45-18](https://user-images.githubusercontent.com/16570874/151455919-19b7abe3-fef1-4b01-9bd7-81a0208e1871.png)
 
-  ![](/home/dell/Pictures/Screenshot from 2022-01-24 13-45-18.png)
-
-  - Airflow setup details. 
+- Airflow setup details. 
 
     Follow [here] (https://www.progress.com/tutorials/jdbc/connect-to-redshift-salesforce-and-others-from-apache-airflow) to setup airflow and connect it to redshift. Connection page should look like this.
     
-    ![](/home/dell/Pictures/Screenshot from 2022-01-23 22-34-14.png)
+![Screenshot from 2022-01-23 22-34-14](https://user-images.githubusercontent.com/16570874/151455968-c44590de-bd8b-4ff8-9f29-9310247d9f71.png)
 
 - Image of RUNs
 
-  - On success, we see below tree in green.
-
-  ![](/home/dell/Pictures/Screenshot from 2022-01-24 13-44-00.png)
+- On success, we see below tree in green.
+![Screenshot from 2022-01-24 13-44-00](https://user-images.githubusercontent.com/16570874/151456005-335638dd-9681-46ee-8d93-0332da1e4f3a.png)
 
 - Image of dashboard and explanations
