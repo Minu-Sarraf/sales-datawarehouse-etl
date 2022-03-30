@@ -8,7 +8,7 @@
 3. Modules
 
 ### Objective
-Implement end to end data pipeline for sales data warehouse. The data is loaded in json format by day in directory. The data is first loaded into a staging table on redshift. From there, it is transformed and made ready to be inserted into fact table. Once loaded into the fact table, staging table is dropped and analytics in the fact table are displayed on the grafana dashboard. 
+Implement end to end data pipeline for sales data warehouse. The data is loaded in json format by day in directory. The data is first loaded into a staging table on redshift. From there, it is transformed and made ready to be inserted into fact table. Once loaded into the fact table, staging table is dropped. 
 
 The project uses 1 month worth of data for month of Jan where each day has around 100 invoices, spread accros 51 customers, 31 products and 11 suppliers. 
 
